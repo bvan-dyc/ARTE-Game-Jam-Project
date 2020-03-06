@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\</ProjectRoot>
+		<SourceFilesRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" GUID="{4C35C3F7-1A6C-4FF0-B117-1546C18AFF4F}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

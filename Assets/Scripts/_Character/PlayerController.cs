@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(BodyController))]
 public class PlayerController : MonoBehaviour
 {
     protected static PlayerController s_Instance;
@@ -72,6 +73,8 @@ public class PlayerController : MonoBehaviour
 
     private void SwitchControlledBody()
     {
+        if (playerCorpses.Count < 2)
+            return;
         currentBody.ResetBody();
         currentBodyIndex = currentBodyIndex >= playerCorpses.Count ? 0 : currentBodyIndex + 1;
         currentBody = playerCorpses[currentBodyIndex];

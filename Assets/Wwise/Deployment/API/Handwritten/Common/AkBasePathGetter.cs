@@ -42,7 +42,7 @@ public partial class AkBasePathGetter
 		platformSubDir = "iOS";
 #elif UNITY_ANDROID
 		platformSubDir = "Android";
-#elif PLATFORM_LUMIN
+#elif PLATFOR_LUMIN
 		platformSubDir = "Lumin";
 #elif UNITY_PS4
 		platformSubDir = "PS4";
@@ -230,7 +230,7 @@ public partial class AkBasePathGetter
 		{
 			tempSoundBankBasePath = GetPlatformBasePath();
 
-#if !UNITY_EDITOR && (UNITY_ANDROID || PLATFORM_LUMIN)
+#if !UNITY_EDITOR && (UNITY_ANDROID || PLATFOR_LUMIN)
 			// Can't use File.Exists on Android, assume banks are there
 			var InitBnkFound = true;
 #else
@@ -256,7 +256,7 @@ public partial class AkBasePathGetter
 		string tempDecodedBankFullPath = null;
 
 #if !UNITY_SWITCH || UNITY_EDITOR
-#if (UNITY_ANDROID || PLATFORM_LUMIN || UNITY_IOS) && !UNITY_EDITOR
+#if (UNITY_ANDROID || PLATFOR_LUMIN || UNITY_IOS) && !UNITY_EDITOR
 		// This is for platforms that only have a specific file location for persistent data.
 		tempDecodedBankFullPath = System.IO.Path.Combine(tempPersistentDataPath, DecodedBankFolder);
 #else

@@ -1,19 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(BodyController))]
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    [Serializable]
+    public class DeathEvent : UnityEvent<PlayerController>
+    { }
+
     protected static PlayerController s_Instance;
     public static PlayerController instance { get { return s_Instance; } }
  
     [SerializeField] protected GameObject bodyPrefab = null;
     [SerializeField] protected AudioSource footstepsAudioSource = null;
     [SerializeField] protected float respawnDelay = 3;
-    [SerializeField] protected int maxLives = 6;
+    [SerializeField] protected int maxLives = 7;
+    public DeathEvent OnDeath;
+
     protected UserInput input;
     protected Checkpoint _CurrentCheckpoint;
     protected List<BodyController> playerCorpses = new List<BodyController>();
@@ -24,7 +32,7 @@ public class PlayerController : MonoBehaviour
     protected Checkpoint currentCheckpoint;
     protected bool respawning;
     protected CameraFollow mainCamera;
-    protected int livesLeft;
+    protected int livesLeft = 6;
     readonly int hashDeath = Animator.StringToHash("Death");
     readonly int hashRespawn = Animator.StringToHash("Respawn");
 
@@ -122,6 +130,7 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(respawnDelay);
         SpawnFormerBody();
+        OnDeath.Invoke(this);
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.transform.position;

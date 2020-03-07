@@ -12,7 +12,6 @@ public class LifeUI : MonoBehaviour {
 	protected Animator[] lifeIconAnimators;
 
 	protected readonly int hashActivePara = Animator.StringToHash("Active");
-	protected readonly int hashInactiveState = Animator.StringToHash("Inactive");
 
 	IEnumerator Start()
 	{
@@ -39,13 +38,12 @@ public class LifeUI : MonoBehaviour {
 
 			if (representedPlayerController.LivesLeft < i + 1)
 			{
-				lifeIconAnimators[i].Play(hashInactiveState);
 				lifeIconAnimators[i].SetBool(hashActivePara, false);
 			}
 		}
 	}
 
-	public void ChangeLivesUI(PlayerController PlayerController)
+	public void RefreshLivesUI(PlayerController PlayerController)
 	{
 		if (lifeIconAnimators == null)
 			return;

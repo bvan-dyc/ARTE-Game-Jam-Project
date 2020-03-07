@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class FacingTrigger : MonoBehaviour
 {
-    [SerializeField] private Direction facing;
+    [SerializeField] private Direction facing = Direction.left;
     protected Collider triggerCollider;
     protected Transform body;
     protected bool activated = false;

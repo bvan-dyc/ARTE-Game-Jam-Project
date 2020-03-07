@@ -7,87 +7,81 @@ public class PlayerController : MonoBehaviour
 {
     protected static PlayerController s_Instance;
     public static PlayerController instance { get { return s_Instance; } }
-
-    protected UserInput m_Input;
-    protected Animator m_Animator;
-    protected NavMeshAgent m_Agent;
-    [SerializeField] protected GameObject corpsePrefab = null;
+ 
+    [SerializeField] protected GameObject bodyPrefab = null;
     [SerializeField] protected AudioSource footstepsAudioSource = null;
-    protected Checkpoint m_CurrentCheckpoint;
-    protected bool m_Respawning;
-
-    protected bool IsMoveInput
-    {
-        get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
-    }
-
+    protected UserInput input;
+    protected Checkpoint _CurrentCheckpoint;
+    protected List<BodyController> playerCorpses = new List<BodyController>();
+    protected BodyController currentBody;
+    protected BodyController mainBody;
+    protected int currentBodyIndex = 0;
+    protected Checkpoint currentCheckpoint;
+    protected bool respawning;
+    protected CameraFollow mainCamera;
 
     void Awake()
     {
-        m_Animator = GetComponent<Animator>();
-        m_Agent = GetComponent<NavMeshAgent>();
-
         s_Instance = this;
+        playerCorpses.Add(GetComponent<BodyController>());
+        mainBody = playerCorpses[0];
+        currentBody = mainBody;
     }
 
     private void Start()
     {
-        m_Input = UserInput.Instance;
+        input = UserInput.Instance;
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraFollow>();
     }
 
     void FixedUpdate()
     {
-        if (m_Input.MoveRequest)
-            MoveToTarget();
+        if (input.MoveRequest)
+            CommandMove();
+        if (input.SwitchRequest)
+            SwitchControlledBody();
     }
 
-    private void MoveToTarget()
+    private void CommandMove()
     {
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 100))
         {
             transform.LookAt(hit.point);
-            m_Agent.destination = hit.point;
+            currentBody.MoveTo(hit.point);
         }
     }
 
-    private void PlayPlayerAudio()
+    public void OnDie()
     {
-
+        respawning = true;
+        currentBody.ResetBody();
+        SpawnFormerBody();
+        Respawn();
     }
 
-    private void resetTarget()
+    private void SpawnFormerBody()
     {
-        m_Agent.isStopped = true;
-        m_Agent.ResetPath();
+        if (bodyPrefab.GetComponent<BodyController>())
+        {
+            GameObject newbody = Instantiate(bodyPrefab);
+            newbody.transform.position = transform.position;
+            playerCorpses.Add(newbody.GetComponent<BodyController>());
+        }
+    }
+
+    private void SwitchControlledBody()
+    {
+        currentBody.ResetBody();
+        currentBodyIndex = currentBodyIndex >= playerCorpses.Count ? 0 : currentBodyIndex + 1;
+        currentBody = playerCorpses[currentBodyIndex];
+        mainCamera.SetTarget(currentBody.transform);
     }
 
     public void SetCheckpoint(Checkpoint checkpoint)
     {
         if (checkpoint != null)
-            m_CurrentCheckpoint = checkpoint;
-        // If there is a checkpoint, move Player to it.
-        if (m_CurrentCheckpoint != null)
-        {
-            transform.position = m_CurrentCheckpoint.transform.position;
-            transform.rotation = m_CurrentCheckpoint.transform.rotation;
-        }
-        else
-        {
-            Debug.LogError("There is no Checkpoint set, there should always be a checkpoint set. Did you add a checkpoint at the spawn?");
-        }
-    }
-
-    private void OnDie()
-    {
-        m_Agent.isStopped = true;
-        m_Agent.ResetPath();
-        m_Respawning = true;
-        if (corpsePrefab.GetComponent<Rigidbody>())
-        {
-            GameObject deadbody = Instantiate(corpsePrefab);
-            deadbody.GetComponent<Rigidbody>().transform.position = transform.position;
-        }
+            currentCheckpoint = checkpoint;
     }
 
     private void Respawn()
@@ -97,11 +91,16 @@ public class PlayerController : MonoBehaviour
 
     protected IEnumerator RespawnRoutine()
     {
-        yield return StartCoroutine(ScreenFader.FadeSceneOut());
-        while (ScreenFader.IsFading)
+        if (currentCheckpoint != null)
         {
-            yield return null;
+            transform.position = currentCheckpoint.transform.position;
+            transform.rotation = currentCheckpoint.transform.rotation;
         }
-        yield return StartCoroutine(ScreenFader.FadeSceneIn());
+        else
+        {
+            Debug.LogError("There is no Checkpoint set");
+        }
+        respawning = false;
+        yield return null;
     }
 }

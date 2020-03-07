@@ -16,4 +16,9 @@ public class CameraFollow : MonoBehaviour
 		transform.rotation = Quaternion.Euler(30, 45, 0);
 		transform.position = target.position - (Quaternion.Euler(30, 45, 0) * Vector3.forward * offset);
 	}
+
+	public void SetTarget(Transform newTarget)
+	{
+		target = newTarget;
+	}
 }

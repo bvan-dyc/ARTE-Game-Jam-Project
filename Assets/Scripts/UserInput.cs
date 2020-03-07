@@ -10,17 +10,18 @@ public class UserInput : MonoBehaviour
     }
 
     protected static UserInput s_Instance;
-    protected Vector2 m_Movement;
-    protected bool m_MoveRequest;
-    protected bool m_ExternalInputBlocked;
+    protected Vector2 _Movement;
+    protected bool _MoveRequest;
+    protected bool _SwitchRequest;
+    protected bool _ExternalInputBlocked;
     public bool playerControllerInputBlocked;
-    protected bool m_MouseControl;
+    protected bool _MouseControl;
 
     public bool MouseControl
     {
         get
         {
-            return (m_MouseControl);
+            return (_MouseControl);
         }
     }
 
@@ -28,15 +29,20 @@ public class UserInput : MonoBehaviour
     {
         get
         {
-            if (playerControllerInputBlocked || m_ExternalInputBlocked)
+            if (playerControllerInputBlocked || _ExternalInputBlocked)
                 return Vector2.zero;
-            return m_Movement;
+            return _Movement;
         }
     }
 
     public bool MoveRequest
     {
-        get { return m_MoveRequest && !m_ExternalInputBlocked && !playerControllerInputBlocked; }
+        get { return _MoveRequest && !_ExternalInputBlocked && !playerControllerInputBlocked; }
+    }
+
+    public bool SwitchRequest
+    {
+        get { return _SwitchRequest && !_ExternalInputBlocked && !playerControllerInputBlocked; }
     }
 
     void Awake()
@@ -50,22 +56,23 @@ public class UserInput : MonoBehaviour
 
     void Update()
     {
-        //m_Movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        m_MoveRequest = Input.GetMouseButton(0);
+        //_Movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        _MoveRequest = Input.GetMouseButton(0);
+        _SwitchRequest = Input.GetKeyDown(KeyCode.Space);
     }
 
     public bool HaveControl()
     {
-        return !m_ExternalInputBlocked;
+        return !_ExternalInputBlocked;
     }
 
     public void ReleaseControl()
     {
-        m_ExternalInputBlocked = true;
+        _ExternalInputBlocked = true;
     }
 
     public void GainControl()
     {
-        m_ExternalInputBlocked = false;
+        _ExternalInputBlocked = false;
     }
 }

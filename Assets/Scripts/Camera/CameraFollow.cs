@@ -8,7 +8,7 @@ public class CameraFollow : MonoBehaviour
 	private Transform target;
     void Start()
     {
-		target = GameObject.FindGameObjectWithTag("Player").transform;
+		target = PlayerController.instance.gameObject.transform;
     }
 
     void LateUpdate()

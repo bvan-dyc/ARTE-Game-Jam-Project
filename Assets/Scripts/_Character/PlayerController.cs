@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] protected GameObject bodyPrefab = null;
     [SerializeField] protected AudioSource footstepsAudioSource = null;
     [SerializeField] protected float respawnDelay = 3;
+    [SerializeField] protected int maxLives = 6;
     protected UserInput input;
     protected Checkpoint _CurrentCheckpoint;
     protected List<BodyController> playerCorpses = new List<BodyController>();
@@ -23,9 +24,19 @@ public class PlayerController : MonoBehaviour
     protected Checkpoint currentCheckpoint;
     protected bool respawning;
     protected CameraFollow mainCamera;
-
+    protected int livesLeft;
     readonly int hashDeath = Animator.StringToHash("Death");
     readonly int hashRespawn = Animator.StringToHash("Respawn");
+
+    public int LivesLeft
+    {
+        get { return livesLeft; }
+    }
+
+    public int MaxLives
+    {
+        get { return maxLives; }
+    }
 
     void Awake()
     {
@@ -68,6 +79,7 @@ public class PlayerController : MonoBehaviour
         currentBody.ResetBody();
         input.playerControllerInputBlocked = true;
         animator.SetTrigger(hashDeath);
+        livesLeft--;
         Respawn();
     }
 
@@ -92,7 +104,6 @@ public class PlayerController : MonoBehaviour
         currentBody = playerCorpses[currentBodyIndex];
         Debug.Log(currentBody.name + " was entered");
         currentBody.EnterBody();
-        Debug.Log(currentBody.name);
         mainCamera.SetTarget(currentBody.transform);
     }
 

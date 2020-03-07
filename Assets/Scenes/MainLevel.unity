@@ -155,6 +155,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &135002636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2564002042825352163, guid: d494e9d3f0d3b134dbf8cd9d76e25c88,
+    type: 3}
+  m_PrefabInstance: {fileID: 2564002042080814997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &135002639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135002636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1b0176307697a47bfe08787ffba54d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 766d4a3821b06e347809af6ec85bac90,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &181221967
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +218,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &292692744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4580087246949172645, guid: 14d6c1349c442bc46815b6d2e6d3f946,
+    type: 3}
+  m_PrefabInstance: {fileID: 4580087246357471148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &292692745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292692744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepDistance: 1.5
+  preStepTiming: 0.43
 --- !u!1 &462397065
 GameObject:
   m_ObjectHideFlags: 0

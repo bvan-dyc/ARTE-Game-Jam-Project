@@ -2,9 +2,11 @@
 <PluginInfo Project="ARTE_Pre-Alpha_team" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
 		<Plugin Name="MSA Room Preset Properties" ID="6558275" DLL="MSA"/>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
 		<Plugin Name="MSA Source Mixer Properties" ID="13111878" DLL="MSA"/>
+		<Plugin Name="AttachableMixerInput" ID="13177411" DLL="MSA"/>
 		<Plugin Name="Wwise Motion" ID="33226759" DLL="AkMotion"/>
 	</Plugins>
 </PluginInfo>

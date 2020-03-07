@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID PRESTEP = 3711779918U;
     } // namespace EVENTS
 
     namespace SWITCHES

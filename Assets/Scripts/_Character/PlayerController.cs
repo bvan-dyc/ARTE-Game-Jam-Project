@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
         if (playerCorpses.Count < 2)
             return;
         currentBody.ResetBody();
-        currentBodyIndex = currentBodyIndex >= playerCorpses.Count ? 0 : currentBodyIndex + 1;
+        currentBodyIndex = currentBodyIndex > playerCorpses.Count ? 0 : currentBodyIndex + 1;
         currentBody = playerCorpses[currentBodyIndex];
         mainCamera.SetTarget(currentBody.transform);
     }

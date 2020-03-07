@@ -16,12 +16,9 @@ public class Trap : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            // var player = other.GetComponent<>()
-            // if (player !== null) {
-            //     player.onDie()
-            // }
-        }
+        if (!other.CompareTag("Player")) return;
+        var player = other.GetComponent<PlayerController>();
+        if (player == null) return;
+        player.OnDie();
     }
 }

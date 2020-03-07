@@ -21,7 +21,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	811507187	MSA Source Mixer Properties (Custom)	MSA Source Mixer Properties			
+	301129860	MSA_Room_Preset_Properties_(Custom)	MSA Room Preset Properties			
+	372509919	MSA Source Mixer Properties (Custom)	MSA Source Mixer Properties			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

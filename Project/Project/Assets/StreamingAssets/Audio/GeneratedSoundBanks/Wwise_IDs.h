@@ -11,6 +11,26 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FOOTSTEP = 1866025847U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOT
+        {
+            static const AkUniqueID GROUP = 3031504797U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LEFT = 4109362U;
+                static const AkUniqueID RIGHT = 3893817417U;
+            } // namespace SWITCH
+        } // namespace FOOT
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;

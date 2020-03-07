@@ -27,11 +27,13 @@ public class TwoSideTranslator : SimpleTranslator
 
     public void Activate()
     {
+        Debug.Log("activate");
         activate = true;
     }
 
     public void Deactivate()
     {
+        Debug.Log("activate");
         activate = false;
     }
 }

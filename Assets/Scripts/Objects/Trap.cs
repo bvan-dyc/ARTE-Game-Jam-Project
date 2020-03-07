@@ -31,7 +31,7 @@ public class Trap : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         var player = other.GetComponent<PlayerController>();
-        if (player == null && !_triggered) return;
+        if (player == null || _triggered) return;
         _triggered = true;
         player.OnDie();
     }

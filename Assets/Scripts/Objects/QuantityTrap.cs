@@ -17,17 +17,12 @@ public class QuantityTrap : Trap
         if (body == null) return;
         _count += 1;
         if (_count < quantity) return;
-        
-        var player = other.GetComponent<PlayerController>();
-        if (player == null && !_triggered) return;
-        _triggered = true;
-        player.OnDie();
+        ItsATrap(other);
     }
 
     public void OnTriggerExit(Collider other)
     {
         if (!other.CompareTag("Player")) return;
-        
         var body = other.GetComponent<BodyController>();
         if (body == null) return;
         _count -= 1;

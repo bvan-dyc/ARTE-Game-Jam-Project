@@ -5,7 +5,7 @@ using UnityEngine;
 public class Statues : MonoBehaviour
 {
     [SerializeField] protected List<FacingTrigger> statues = new List<FacingTrigger>();
-    protected bool cleared = false;
+    [SerializeField] protected bool cleared = false;
 
     public bool IsCleared
     {

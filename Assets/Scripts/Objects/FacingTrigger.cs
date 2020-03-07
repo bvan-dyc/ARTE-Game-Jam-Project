@@ -7,8 +7,8 @@ public class FacingTrigger : MonoBehaviour
 {
     [SerializeField] private Direction facing = Direction.left;
     protected Collider triggerCollider;
-    protected Transform body;
-    protected bool activated = false;
+    protected List<Transform> bodies = new List<Transform>();
+    [SerializeField] protected bool activated = false;
     protected int numberOfBodies = 0;
 
     public bool IsActivated
@@ -29,18 +29,18 @@ public class FacingTrigger : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!body)
+        if (bodies.Count == 0)
             return;
-        activated = CheckBodyFacing() == facing;
+        activated = BodiesFacing() == facing;
     }
 
-    private Direction CheckBodyFacing()
+    private Direction BodiesFacing()
     {
-        if (body.transform.rotation.y > 315f || body.transform.rotation.y <= 45f)
+        if (bodies[0].transform.rotation.y > 315f || bodies[0].transform.rotation.y <= 45f)
             return (Direction.forward);
-        else if (body.transform.rotation.y > 45f && body.transform.rotation.y <= 135f)
+        else if (bodies[0].transform.rotation.y > 45f && bodies[0].transform.rotation.y <= 135f)
             return (Direction.right);
-        else if (body.transform.rotation.y > 135f && body.transform.rotation.y <= 225f)
+        else if (bodies[0].transform.rotation.y > 135f && bodies[0].transform.rotation.y <= 225f)
             return (Direction.backward);
         else
             return (Direction.left);
@@ -48,21 +48,15 @@ public class FacingTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        numberOfBodies++;
-        if (body)
-            return;
+        bodies.Add(other.transform);
         if (other.tag == "Player" || other.tag == "Corpse")
         {
-            body = other.gameObject.transform;
+            bodies[0] = other.gameObject.transform;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        numberOfBodies--;
-        if (numberOfBodies > 0)
-            return;
-        else
-            body = null;
+        bodies.Remove(other.transform);
     }
 }

@@ -9,9 +9,12 @@ public class Trap : MonoBehaviour
 {
     private BoxCollider _collider;
     private Rigidbody _rigidbody;
+    private bool _triggered;
     
     private void Awake()
     {
+        _triggered = false;
+        
         _collider = GetComponent<BoxCollider>();
         _collider.isTrigger = true;
         
@@ -23,7 +26,8 @@ public class Trap : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         var player = other.GetComponent<PlayerController>();
-        if (player == null) return;
+        if (player == null && !_triggered) return;
+        _triggered = true;
         player.OnDie();
     }
 }

@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     protected UserInput m_Input;
     protected Animator m_Animator;
     protected NavMeshAgent m_Agent;
-    [SerializeField] protected AudioSource footstepsAudioSource;
+    [SerializeField] protected GameObject corpsePrefab = null;
+    [SerializeField] protected AudioSource footstepsAudioSource = null;
     protected Checkpoint m_CurrentCheckpoint;
     protected bool m_Respawning;
 
@@ -82,6 +83,11 @@ public class PlayerController : MonoBehaviour
         m_Agent.isStopped = true;
         m_Agent.ResetPath();
         m_Respawning = true;
+        if (corpsePrefab.GetComponent<Rigidbody>())
+        {
+            GameObject deadbody = Instantiate(corpsePrefab);
+            deadbody.GetComponent<Rigidbody>().transform.position = transform.position;
+        }
     }
 
     private void Respawn()

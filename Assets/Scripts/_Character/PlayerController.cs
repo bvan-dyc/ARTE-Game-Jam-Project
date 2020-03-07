@@ -75,7 +75,6 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 100))
         {
-            transform.LookAt(hit.point);
             currentBody.MoveTo(hit.point);
         }
     }

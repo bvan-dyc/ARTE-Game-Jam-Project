@@ -780,6 +780,7 @@ GameObject:
   - component: {fileID: 4580087246949172647}
   - component: {fileID: 4580087246949172646}
   - component: {fileID: 4551130576757823057}
+  - component: {fileID: 4239533377346357585}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -876,6 +877,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4239533377346357585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4580087246949172645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footLeft: {fileID: 4876171648468519230}
+  footRight: {fileID: 5835120061686758129}
+  kneeLeft: {fileID: 1869372307853332105}
+  kneeRight: {fileID: 6609686309216087101}
+  hipsLeft: {fileID: 9005903959886009000}
+  hipsRight: {fileID: 198044381885586787}
+  shoulderLeft: {fileID: 231402939077545181}
+  shoulderRight: {fileID: 4104736837334892844}
+  elbowLeft: {fileID: 530228756634980133}
+  elbowRight: {fileID: 6217885482046194368}
+  handLeft: {fileID: 2519821794936483851}
+  handRight: {fileID: 3141802534068759565}
+  back: {fileID: 1627609441568602704}
+  neck: {fileID: 9037037740371285263}
+  head: {fileID: 5514167965512709673}
 --- !u!1 &4768440543156291094
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +948,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  footLeft: {fileID: 0}
+  footRight: {fileID: 0}
+  kneeLeft: {fileID: 0}
+  kneeRight: {fileID: 0}
+  hipsLeft: {fileID: 0}
+  hipsRight: {fileID: 0}
+  shoulderLeft: {fileID: 0}
+  shoulderRight: {fileID: 0}
+  elbowLeft: {fileID: 0}
+  elbowRight: {fileID: 0}
+  handLeft: {fileID: 0}
+  handRight: {fileID: 0}
+  back: {fileID: 0}
+  neck: {fileID: 0}
+  head: {fileID: 0}
 --- !u!1 &4843580247564581918
 GameObject:
   m_ObjectHideFlags: 0

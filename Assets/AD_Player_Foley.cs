@@ -18,6 +18,7 @@ public class AD_Player_Foley : MonoBehaviour
     [SerializeField] GameObject handRight;
     [SerializeField] GameObject back;
     [SerializeField] GameObject neck;
+    [SerializeField] GameObject head;
 
     private void Awake()
     {
@@ -43,14 +44,14 @@ public class AD_Player_Foley : MonoBehaviour
     #region Animation Events
     public void AD_PreStepLeft()
     {
-        AkSoundEngine.PostEvent("Prestep_Knee", kneeLeft);
+        AkSoundEngine.PostEvent("PreStep_Knee", kneeLeft);
         AkSoundEngine.PostEvent("Walk_Hips", hipsLeft);
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderLeft);
     }
 
     public void AD_PreStepRight()
     {
-        AkSoundEngine.PostEvent("Prestep_Knee", kneeRight);
+        AkSoundEngine.PostEvent("PreStep_Knee", kneeRight);
         AkSoundEngine.PostEvent("Walk_Hips", hipsRight);
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderRight);
     }
@@ -58,15 +59,57 @@ public class AD_Player_Foley : MonoBehaviour
     public void AD_FootStepLeft()
     {
         AkSoundEngine.PostEvent("Footstep", footLeft);
-        AkSoundEngine.PostEvent("Footstep_Elbow", elbowLeft);
-        AkSoundEngine.PostEvent("Footstep_Hips", hipsLeft);
-    }
+        AkSoundEngine.PostEvent("Bones_Elbow", elbowLeft);
+      }
 
     public void AD_FootStepRight()
     {
         AkSoundEngine.PostEvent("Footstep", footRight);
+        AkSoundEngine.PostEvent("Bones_Elbow", elbowRight);
+    }
+
+
+    public void AD_ArmLeft()
+    {
+        AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderLeft);
+        AkSoundEngine.PostEvent("Footstep_Elbow", elbowLeft);
+    }
+
+    public void AD_ArmRight()
+    {
+        AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderRight);
         AkSoundEngine.PostEvent("Footstep_Elbow", elbowRight);
     }
 
+    public void AD_HitKneeLeft()
+    {
+        AkSoundEngine.PostEvent("Hit_Knee", kneeLeft);
+    }
+
+    public void AD_HitKneeRight()
+    {
+        AkSoundEngine.PostEvent("Hit_Knee", kneeRight);
+    }
+
+    public void AD_HitTorso()
+    {
+        AkSoundEngine.PostEvent("Hit_Torso", back);
+    }
+
+    public void AD_HitHead()
+    {
+        AkSoundEngine.PostEvent("Hit_Head", head);
+    }
+
+
+    public void AD_NeckSnap()
+    {
+        AkSoundEngine.PostEvent("Snap_Neck", neck);
+    }
+
+    public void AD_PushButton()
+    {
+        AkSoundEngine.PostEvent("Push_Button", handRight);
+    }
     #endregion
 }

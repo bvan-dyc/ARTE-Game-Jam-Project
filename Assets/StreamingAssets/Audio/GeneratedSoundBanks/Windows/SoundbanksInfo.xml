@@ -16,6 +16,90 @@
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1420004310" Name="Bones_Elbow" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Elbow" GUID="{4F69E2CA-7DAE-469E-BD21-48EA078B8D40}" DurationType="OneShot" DurationMin="0.450844" DurationMax="0.624826">
+					<IncludedMemoryFiles>
+						<File Id="122085856" Language="SFX">
+							<ShortName>FOL_Bone_Single-00.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-00_CCFA52FE.wem</Path>
+						</File>
+						<File Id="238338989" Language="SFX">
+							<ShortName>FOL_Bone_Single-04.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-04_CCFA52FE.wem</Path>
+						</File>
+						<File Id="291914149" Language="SFX">
+							<ShortName>FOL_Bone_Single-07.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-07_CCFA52FE.wem</Path>
+						</File>
+						<File Id="333945019" Language="SFX">
+							<ShortName>FOL_Bone_Single-03.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-03_CCFA52FE.wem</Path>
+						</File>
+						<File Id="448464009" Language="SFX">
+							<ShortName>FOL_Bone_Single-06.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-06_CCFA52FE.wem</Path>
+						</File>
+						<File Id="552792686" Language="SFX">
+							<ShortName>FOL_Bone_Single-01.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-01_CCFA52FE.wem</Path>
+						</File>
+						<File Id="914170503" Language="SFX">
+							<ShortName>FOL_Bone_Single-02.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-02_CCFA52FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}">
+							<Media>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87430B39-7D2A-4161-B65D-1BC9856D1F68}">
+							<Media>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Foley\Footstep" GUID="{64BAD681-05F6-463C-ADD6-AF7E3B46970B}" DurationType="OneShot" DurationMin="0.719978" DurationMax="1.428314">
 					<IncludedMemoryFiles>
 						<File Id="12906320" Language="SFX">
@@ -64,7 +148,7 @@
 						</File>
 						<File Id="84475154" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -15.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -15_FAC21BBC.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -15_5568836E.wem</Path>
 						</File>
 						<File Id="115296498" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Walk_Left-02.wav</ShortName>
@@ -88,7 +172,7 @@
 						</File>
 						<File Id="150621465" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -09.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -09_D62CC600.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -09_3E248037.wem</Path>
 						</File>
 						<File Id="153252833" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Walk_Left-02.wav</ShortName>
@@ -96,11 +180,11 @@
 						</File>
 						<File Id="159252991" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -05.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -05_3B4EC9A2.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -05_B053011B.wem</Path>
 						</File>
 						<File Id="163067373" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -03.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -03_DD73512F.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -03_B7AA4A59.wem</Path>
 						</File>
 						<File Id="168820710" Language="SFX">
 							<ShortName>FOL-Steps-Snow_Shuffle-16.wav</ShortName>
@@ -144,11 +228,11 @@
 						</File>
 						<File Id="267988926" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -19.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -19_D328ACB0.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -19_AACC524D.wem</Path>
 						</File>
 						<File Id="281278490" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -03.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -03_36C6D1B8.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -03_7E009EA6.wem</Path>
 						</File>
 						<File Id="293284851" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Walk_Right-04.wav</ShortName>
@@ -156,7 +240,7 @@
 						</File>
 						<File Id="301788845" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -16.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -16_20BA6F3D.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -16_F76DFB5F.wem</Path>
 						</File>
 						<File Id="311321607" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 09.wav</ShortName>
@@ -212,7 +296,7 @@
 						</File>
 						<File Id="403810099" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -11.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -11_A4FB0B43.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -11_F0006BE8.wem</Path>
 						</File>
 						<File Id="412434445" Language="SFX">
 							<ShortName>steps SV - concrete solid.wav</ShortName>
@@ -228,7 +312,7 @@
 						</File>
 						<File Id="420390081" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -15.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -15_5F2D4406.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -15_423490F1.wem</Path>
 						</File>
 						<File Id="441745924" Language="SFX">
 							<ShortName>steps SV - concrete solid.wav</ShortName>
@@ -248,7 +332,7 @@
 						</File>
 						<File Id="468844629" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -07.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -07_730CF2B3.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -07_08B6BA56.wem</Path>
 						</File>
 						<File Id="470614162" Language="SFX">
 							<ShortName>FOL-Steps-Snow_Shuffle-04.wav</ShortName>
@@ -300,7 +384,7 @@
 						</File>
 						<File Id="579078105" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -04.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -04_75748F0B.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -04_71FD3A4F.wem</Path>
 						</File>
 						<File Id="583697165" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 11.wav</ShortName>
@@ -312,7 +396,7 @@
 						</File>
 						<File Id="607952909" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -02.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -02_EC1F7B99.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -02_77123D2A.wem</Path>
 						</File>
 						<File Id="613663472" Language="SFX">
 							<ShortName>FOL-Steps-Snow_Shuffle-05.wav</ShortName>
@@ -332,7 +416,7 @@
 						</File>
 						<File Id="632345828" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -08.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -08_A57D76C8.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -08_C36B8E19.wem</Path>
 						</File>
 						<File Id="637238377" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Run_Left-01.wav</ShortName>
@@ -340,7 +424,7 @@
 						</File>
 						<File Id="638462698" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -01.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -01_114DE3E8.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -01_9928C3F3.wem</Path>
 						</File>
 						<File Id="642249822" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 01.wav</ShortName>
@@ -356,7 +440,7 @@
 						</File>
 						<File Id="650806848" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -21.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -21_00C549DE.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -21_F5C49C19.wem</Path>
 						</File>
 						<File Id="657116127" Language="SFX">
 							<ShortName>FOL-Steps-Snow_Shuffle-14.wav</ShortName>
@@ -364,7 +448,7 @@
 						</File>
 						<File Id="659717576" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -10.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -10_9346D012.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -10_A84D3EE0.wem</Path>
 						</File>
 						<File Id="671411947" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Walk_Left-01.wav</ShortName>
@@ -424,7 +508,7 @@
 						</File>
 						<File Id="856493788" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -17.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -17_2B841D93.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -17_CA4A99B1.wem</Path>
 						</File>
 						<File Id="882636669" Language="SFX">
 							<ShortName>steps SV - concrete solid.wav</ShortName>
@@ -448,7 +532,7 @@
 						</File>
 						<File Id="925865124" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -09.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -09_B4B5A524.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -09_0CCCD258.wem</Path>
 						</File>
 						<File Id="927516367" Language="SFX">
 							<ShortName>steps SV - concrete solid.wav</ShortName>
@@ -456,11 +540,11 @@
 						</File>
 						<File Id="931827058" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Left -22.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -22_71837802.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Left -22_1C09FCEA.wem</Path>
 						</File>
 						<File Id="938901887" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -17.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -17_C1BC37C3.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -17_7E07A2F4.wem</Path>
 						</File>
 						<File Id="950615295" Language="SFX">
 							<ShortName>FOL-Steps-Snow_Shuffle-03.wav</ShortName>
@@ -492,19 +576,19 @@
 						</File>
 						<File Id="1004362117" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -20.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -20_31B6A0BE.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -20_F4C7882A.wem</Path>
 						</File>
 						<File Id="1009038468" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -01.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -01_960E6885.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -01_2D92A896.wem</Path>
 						</File>
 						<File Id="1011483464" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -14.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -14_F88C86C7.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -14_094644FC.wem</Path>
 						</File>
 						<File Id="1019606681" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_Sand_Right -06.wav</ShortName>
-							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -06_4F57A96E.wem</Path>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_Sand_Right -06_CF832D1F.wem</Path>
 						</File>
 						<File Id="1022183631" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Run_Left-02.wav</ShortName>
@@ -702,90 +786,9 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2779997303" Name="Footstep_Elbow" ObjectPath="\Events\Default Work Unit\Player\Foley\Footstep_Elbow" GUID="{4F69E2CA-7DAE-469E-BD21-48EA078B8D40}" DurationType="OneShot" DurationMin="0.450844" DurationMax="0.624826">
-					<IncludedMemoryFiles>
-						<File Id="122085856" Language="SFX">
-							<ShortName>FOL_Bone_Single-00.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-00_CCFA52FE.wem</Path>
-						</File>
-						<File Id="238338989" Language="SFX">
-							<ShortName>FOL_Bone_Single-04.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-04_CCFA52FE.wem</Path>
-						</File>
-						<File Id="291914149" Language="SFX">
-							<ShortName>FOL_Bone_Single-07.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-07_CCFA52FE.wem</Path>
-						</File>
-						<File Id="333945019" Language="SFX">
-							<ShortName>FOL_Bone_Single-03.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-03_CCFA52FE.wem</Path>
-						</File>
-						<File Id="448464009" Language="SFX">
-							<ShortName>FOL_Bone_Single-06.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-06_CCFA52FE.wem</Path>
-						</File>
-						<File Id="552792686" Language="SFX">
-							<ShortName>FOL_Bone_Single-01.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-01_CCFA52FE.wem</Path>
-						</File>
-						<File Id="914170503" Language="SFX">
-							<ShortName>FOL_Bone_Single-02.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-02_CCFA52FE.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}">
-							<Media>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{87430B39-7D2A-4161-B65D-1BC9856D1F68}">
-							<Media>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-				</Event>
+				<Event Id="4073051257" Name="Hit_Head" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Head" GUID="{C3BF3E80-4940-4EC1-A94E-3B45A7D6811B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1773028838" Name="Hit_Knee" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Knee" GUID="{7C394BB4-99AB-476B-9552-68A44091F9A9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="266903708" Name="Prestep_Knee" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Knee" GUID="{4C4BC267-7008-4E80-B41C-25ECAE6BE163}" DurationType="OneShot" DurationMin="0.299365" DurationMax="0.653062">
 					<IncludedMemoryFiles>
 						<File Id="122085856" Language="SFX">
@@ -878,7 +881,7 @@
 						</File>
 						<File Id="49444025" Language="SFX">
 							<ShortName>FOL_Rope_Move-08.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-08_C5828E36.wem</Path>
+							<Path>SFX\FOL_Rope_Move-08_A6309518.wem</Path>
 						</File>
 						<File Id="107292810" Language="SFX">
 							<ShortName>FOL_Rope_Move-22.wav</ShortName>
@@ -886,11 +889,11 @@
 						</File>
 						<File Id="206714376" Language="SFX">
 							<ShortName>FOL_Rope_Move-04.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-04_3F9D8629.wem</Path>
+							<Path>SFX\FOL_Rope_Move-04_4147B15C.wem</Path>
 						</File>
 						<File Id="207989580" Language="SFX">
 							<ShortName>FOL_Rope_Move-27.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-27_42D0BB6F.wem</Path>
+							<Path>SFX\FOL_Rope_Move-27_B5F646C0.wem</Path>
 						</File>
 						<File Id="246486198" Language="SFX">
 							<ShortName>FOL_Rope_Move-23.wav</ShortName>
@@ -898,7 +901,7 @@
 						</File>
 						<File Id="309566684" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-09.wav</ShortName>
-							<Path>SFX\FOL-Steps-Snow-Sticky-09_DCBB03D6.wem</Path>
+							<Path>SFX\FOL-Steps-Snow-Sticky-09_FDA97799.wem</Path>
 						</File>
 						<File Id="377911218" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-22.wav</ShortName>
@@ -910,7 +913,7 @@
 						</File>
 						<File Id="495945440" Language="SFX">
 							<ShortName>FOL_Rope_Move-02.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-02_84577365.wem</Path>
+							<Path>SFX\FOL_Rope_Move-02_14F3BDAD.wem</Path>
 						</File>
 						<File Id="517016759" Language="SFX">
 							<ShortName>FOL_Rope_Move-05.wav</ShortName>
@@ -918,19 +921,19 @@
 						</File>
 						<File Id="559338152" Language="SFX">
 							<ShortName>FOL_Rope_Move-28.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-28_E138BF58.wem</Path>
+							<Path>SFX\FOL_Rope_Move-28_CF4855D4.wem</Path>
 						</File>
 						<File Id="605295103" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-20.wav</ShortName>
-							<Path>SFX\FOL-Steps-Snow-Sticky-20_C69B3DDD.wem</Path>
+							<Path>SFX\FOL-Steps-Snow-Sticky-20_16D95FB9.wem</Path>
 						</File>
 						<File Id="657665641" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-13.wav</ShortName>
-							<Path>SFX\FOL-Steps-Snow-Sticky-13_81AFFF90.wem</Path>
+							<Path>SFX\FOL-Steps-Snow-Sticky-13_8E6CF9B8.wem</Path>
 						</File>
 						<File Id="676943420" Language="SFX">
 							<ShortName>FOL_Rope_Move-01.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-01_A1AB8F23.wem</Path>
+							<Path>SFX\FOL_Rope_Move-01_169DCB88.wem</Path>
 						</File>
 						<File Id="743373845" Language="SFX">
 							<ShortName>FOL_Rope_Move-26.wav</ShortName>
@@ -946,7 +949,7 @@
 						</File>
 						<File Id="885205092" Language="SFX">
 							<ShortName>FOL_Rope_Move-03.wav</ShortName>
-							<Path>SFX\FOL_Rope_Move-03_BF8C997E.wem</Path>
+							<Path>SFX\FOL_Rope_Move-03_B7428738.wem</Path>
 						</File>
 						<File Id="908994631" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-17.wav</ShortName>
@@ -958,67 +961,69 @@
 						</File>
 						<File Id="994637777" Language="SFX">
 							<ShortName>FOL-Steps-Snow-Sticky-21.wav</ShortName>
-							<Path>SFX\FOL-Steps-Snow-Sticky-21_68738342.wem</Path>
+							<Path>SFX\FOL-Steps-Snow-Sticky-21_823AD206.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1679310360" Name="Push_Button" ObjectPath="\Events\Default Work Unit\Player\Actions\Push_Button" GUID="{C7737995-F017-4341-9504-FAEBF2E3EF31}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="812327625" Name="Snap_Neck" ObjectPath="\Events\Default Work Unit\Player\Damage\Snap_Neck" GUID="{F6D6B1C3-1515-4E6C-BC1E-F7B5BFF84CE6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1862655679" Name="Walk_Hips" ObjectPath="\Events\Default Work Unit\Player\Foley\Walk_Hips" GUID="{8C2C48AC-6874-4836-8994-D9E130D17322}" DurationType="OneShot" DurationMin="0.241720" DurationMax="1.029084">
 					<IncludedMemoryFiles>
 						<File Id="123003143" Language="SFX">
 							<ShortName>FOL_Rope_Step-04.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-04_2BF04508.wem</Path>
+							<Path>SFX\FOL_Rope_Step-04_147B4112.wem</Path>
 						</File>
 						<File Id="176514361" Language="SFX">
 							<ShortName>FOL_Rope_Step-05.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-05_CC99C605.wem</Path>
+							<Path>SFX\FOL_Rope_Step-05_949954CA.wem</Path>
 						</File>
 						<File Id="229688132" Language="SFX">
 							<ShortName>FOL_Rope_Step-03.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-03_C41C5B00.wem</Path>
+							<Path>SFX\FOL_Rope_Step-03_FE286BD7.wem</Path>
 						</File>
 						<File Id="283948162" Language="SFX">
 							<ShortName>FOL_Rope_Step-08.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-08_5EE86217.wem</Path>
+							<Path>SFX\FOL_Rope_Step-08_2F350105.wem</Path>
 						</File>
 						<File Id="338090576" Language="SFX">
 							<ShortName>FOL_Rope_Step-08.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-08_4539695D.wem</Path>
+							<Path>SFX\FOL_Rope_Step-08_76808C90.wem</Path>
 						</File>
 						<File Id="352636300" Language="SFX">
 							<ShortName>FOL_Rope_Step-04.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-04_13560FC3.wem</Path>
+							<Path>SFX\FOL_Rope_Step-04_3971E5A8.wem</Path>
 						</File>
 						<File Id="442373854" Language="SFX">
 							<ShortName>FOL_Rope_Step-05.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-05_7479A6EC.wem</Path>
+							<Path>SFX\FOL_Rope_Step-05_A0D3C059.wem</Path>
 						</File>
 						<File Id="453754830" Language="SFX">
 							<ShortName>FOL_Rope_Step-07.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-07_58B56EFB.wem</Path>
+							<Path>SFX\FOL_Rope_Step-07_EFDC99A5.wem</Path>
 						</File>
 						<File Id="505009912" Language="SFX">
 							<ShortName>FOL_Rope_Step-05.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-05_A6C8DD11.wem</Path>
+							<Path>SFX\FOL_Rope_Step-05_8AF7555F.wem</Path>
 						</File>
 						<File Id="522662237" Language="SFX">
 							<ShortName>FOL_Rope_Step-06.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-06_F86263E9.wem</Path>
+							<Path>SFX\FOL_Rope_Step-06_68AEF415.wem</Path>
 						</File>
 						<File Id="666639201" Language="SFX">
 							<ShortName>FOL_Rope_Step-08.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-08_02CCD646.wem</Path>
+							<Path>SFX\FOL_Rope_Step-08_26494964.wem</Path>
 						</File>
 						<File Id="739562452" Language="SFX">
 							<ShortName>FOL_Rope_Step-09.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-09_DAB5ADC0.wem</Path>
+							<Path>SFX\FOL_Rope_Step-09_EFF09622.wem</Path>
 						</File>
 						<File Id="929868585" Language="SFX">
 							<ShortName>FOL_Rope_Step-03.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-03_34F3EF18.wem</Path>
+							<Path>SFX\FOL_Rope_Step-03_00601DBD.wem</Path>
 						</File>
 						<File Id="1064691353" Language="SFX">
 							<ShortName>FOL_Rope_Step-05.wav</ShortName>
-							<Path>SFX\FOL_Rope_Step-05_7241184E.wem</Path>
+							<Path>SFX\FOL_Rope_Step-05_3E4110B4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

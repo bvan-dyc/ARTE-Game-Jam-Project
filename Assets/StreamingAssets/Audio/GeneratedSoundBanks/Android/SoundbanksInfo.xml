@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\</ProjectRoot>
 		<SourceFilesRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<SoundBanksRoot>F:\ARTE_GameJam2020\ARTE-Game-Jam-Project\ARTE-Game-Jam-Project\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -20,6 +20,180 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep" GUID="{64BAD681-05F6-463C-ADD6-AF7E3B46970B}" DurationType="OneShot" DurationMin="0.596875" DurationMax="0.751458">
+					<IncludedMemoryFiles>
+						<File Id="12906320" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 08.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 08_B09F49DF.wem</Path>
+						</File>
+						<File Id="53684488" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 05.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 05_B09F49DF.wem</Path>
+						</File>
+						<File Id="57174658" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 12.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 12_B09F49DF.wem</Path>
+						</File>
+						<File Id="76955244" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 07.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 07_B09F49DF.wem</Path>
+						</File>
+						<File Id="144230540" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 04.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 04_B09F49DF.wem</Path>
+						</File>
+						<File Id="193962079" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 02.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 02_B09F49DF.wem</Path>
+						</File>
+						<File Id="239690350" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 13.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 13_B09F49DF.wem</Path>
+						</File>
+						<File Id="252021478" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 16.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 16_B09F49DF.wem</Path>
+						</File>
+						<File Id="255608248" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 10.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 10_B09F49DF.wem</Path>
+						</File>
+						<File Id="311321607" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 09.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 09_B09F49DF.wem</Path>
+						</File>
+						<File Id="338998651" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 04.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 04_B09F49DF.wem</Path>
+						</File>
+						<File Id="384472686" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 05.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 05_B09F49DF.wem</Path>
+						</File>
+						<File Id="452307393" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 12.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 12_B09F49DF.wem</Path>
+						</File>
+						<File Id="470815630" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 03.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 03_B09F49DF.wem</Path>
+						</File>
+						<File Id="512569308" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 11.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 11_B09F49DF.wem</Path>
+						</File>
+						<File Id="558791068" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 03.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 03_B09F49DF.wem</Path>
+						</File>
+						<File Id="565088942" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 01.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 01_B09F49DF.wem</Path>
+						</File>
+						<File Id="583697165" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 11.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 11_B09F49DF.wem</Path>
+						</File>
+						<File Id="618607474" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 07.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 07_B09F49DF.wem</Path>
+						</File>
+						<File Id="631234576" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 06.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 06_B09F49DF.wem</Path>
+						</File>
+						<File Id="642249822" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 01.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 01_B09F49DF.wem</Path>
+						</File>
+						<File Id="801798784" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 17.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 17_B09F49DF.wem</Path>
+						</File>
+						<File Id="806017301" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 13.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 13_B09F49DF.wem</Path>
+						</File>
+						<File Id="823012015" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 06.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 06_B09F49DF.wem</Path>
+						</File>
+						<File Id="831527297" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 10.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 10_B09F49DF.wem</Path>
+						</File>
+						<File Id="921376787" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 09.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 09_B09F49DF.wem</Path>
+						</File>
+						<File Id="980894494" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 02.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 02_B09F49DF.wem</Path>
+						</File>
+						<File Id="985470323" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 14.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 14_B09F49DF.wem</Path>
+						</File>
+						<File Id="988535523" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 15.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 15_B09F49DF.wem</Path>
+						</File>
+						<File Id="1072182876" Language="SFX">
+							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 08.wav</ShortName>
+							<Path>SFX\VV_FOLEY_KidBF_Walk_SandDirt_Foot-Left - 08_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}">
+							<Media>
+								<File Id="642249822"/>
+								<File Id="980894494"/>
+								<File Id="470815630"/>
+								<File Id="338998651"/>
+								<File Id="384472686"/>
+								<File Id="631234576"/>
+								<File Id="76955244"/>
+								<File Id="1072182876"/>
+								<File Id="311321607"/>
+								<File Id="255608248"/>
+								<File Id="583697165"/>
+								<File Id="452307393"/>
+								<File Id="806017301"/>
+								<File Id="985470323"/>
+								<File Id="988535523"/>
+								<File Id="252021478"/>
+								<File Id="801798784"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87430B39-7D2A-4161-B65D-1BC9856D1F68}">
+							<Media>
+								<File Id="565088942"/>
+								<File Id="193962079"/>
+								<File Id="558791068"/>
+								<File Id="144230540"/>
+								<File Id="53684488"/>
+								<File Id="823012015"/>
+								<File Id="618607474"/>
+								<File Id="12906320"/>
+								<File Id="921376787"/>
+								<File Id="831527297"/>
+								<File Id="512569308"/>
+								<File Id="57174658"/>
+								<File Id="239690350"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="3031504797" Name="Foot" ObjectPath="\Switches\Default Work Unit\Foot" GUID="{4A8B5A3C-79F7-4EF0-A33C-D22C3D19CAAC}">
+					<Switches>
+						<Switch Id="4109362" Name="left" ObjectPath="\Switches\Default Work Unit\Foot\left" GUID="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}"/>
+						<Switch Id="3893817417" Name="right" ObjectPath="\Switches\Default Work Unit\Foot\right" GUID="{87430B39-7D2A-4161-B65D-1BC9856D1F68}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

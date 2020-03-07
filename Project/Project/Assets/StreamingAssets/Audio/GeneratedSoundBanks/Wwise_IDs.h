@@ -13,21 +13,30 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BONES_ELBOW = 1420004310U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID HIT_HEAD = 4073051257U;
+        static const AkUniqueID HIT_KNEE = 1773028838U;
+        static const AkUniqueID HIT_TORSO = 1156575892U;
+        static const AkUniqueID PRESTEP_KNEE = 266903708U;
+        static const AkUniqueID PRESTEP_SHOULDER = 2169618665U;
+        static const AkUniqueID PUSH_BUTTON = 1679310360U;
+        static const AkUniqueID SNAP_NECK = 812327625U;
+        static const AkUniqueID WALK_HIPS = 1862655679U;
     } // namespace EVENTS
 
     namespace SWITCHES
     {
-        namespace FOOT
+        namespace SIDE
         {
-            static const AkUniqueID GROUP = 3031504797U;
+            static const AkUniqueID GROUP = 704555244U;
 
             namespace SWITCH
             {
                 static const AkUniqueID LEFT = 4109362U;
                 static const AkUniqueID RIGHT = 3893817417U;
             } // namespace SWITCH
-        } // namespace FOOT
+        } // namespace SIDE
 
     } // namespace SWITCHES
 
@@ -57,6 +66,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID PLAYER = 1069431850U;
     } // namespace BANKS
 
     namespace BUSSES

@@ -1581,6 +1581,16 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4642537719457258161, guid: 14d6c1349c442bc46815b6d2e6d3f946,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768440543156291094, guid: 14d6c1349c442bc46815b6d2e6d3f946,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4826345001259279476, guid: 14d6c1349c442bc46815b6d2e6d3f946,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1701,6 +1711,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 30.520184
       objectReference: {fileID: 0}
+    - target: {fileID: 6296333740948444016, guid: 14d6c1349c442bc46815b6d2e6d3f946,
+        type: 3}
+      propertyPath: footLeft
+      value: 
+      objectReference: {fileID: 762643043}
+    - target: {fileID: 6296333740948444016, guid: 14d6c1349c442bc46815b6d2e6d3f946,
+        type: 3}
+      propertyPath: footRight
+      value: 
+      objectReference: {fileID: 940579012}
     - target: {fileID: 6785700065403514644, guid: 14d6c1349c442bc46815b6d2e6d3f946,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1896,7 +1916,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.400086
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7643600739890344569, guid: 14d6c1349c442bc46815b6d2e6d3f946, type: 3}
+    - {fileID: 4642537719457258161, guid: 14d6c1349c442bc46815b6d2e6d3f946, type: 3}
+    - {fileID: 6296333740948444016, guid: 14d6c1349c442bc46815b6d2e6d3f946, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14d6c1349c442bc46815b6d2e6d3f946, type: 3}
 --- !u!225 &4635871924881803406
 CanvasGroup:

@@ -9,7 +9,7 @@ public class Trap : MonoBehaviour
 {
     private BoxCollider _collider;
     private Rigidbody _rigidbody;
-    private bool _triggered;
+    protected bool _triggered;
     
     private void Awake()
     {
@@ -23,6 +23,11 @@ public class Trap : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
+    {
+        ItsATrap(other);
+    }
+
+    public void ItsATrap(Collider other)
     {
         if (!other.CompareTag("Player")) return;
         var player = other.GetComponent<PlayerController>();

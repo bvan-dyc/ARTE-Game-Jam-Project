@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 1402492532257259224}
   - component: {fileID: 7869549626901737226}
   - component: {fileID: 7907160353896381972}
-  - component: {fileID: 4029217584589964194}
+  - component: {fileID: 761956932120190272}
   m_Layer: 8
   m_Name: Body
   m_TagString: Player
@@ -251,7 +251,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 8.794365, z: 2.2444801}
   m_Center: {x: 0, y: 3.8971825, z: 0.62224}
---- !u!114 &4029217584589964194
+--- !u!114 &761956932120190272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,12 +263,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character:
+  Character:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8c523b07df6363941b23640cf24aeec1,
+    WwiseObjectReference: {fileID: 11400000, guid: 1963e5d8a6f244c4da332e808048ec6b,
       type: 2}
   footLeft: {fileID: 7092933941425202883}
   footRight: {fileID: 8159976437984646412}
@@ -283,7 +283,7 @@ MonoBehaviour:
   handLeft: {fileID: 233264707199311862}
   handRight: {fileID: 746860125522674672}
   hips: {fileID: 1363594933456239764}
-  back: {fileID: 4837196944847158890}
+  back: {fileID: 3986499001317676461}
   neck: {fileID: 6678429642784307954}
   head: {fileID: 7873082822645307860}
 --- !u!1 &233264707199311862

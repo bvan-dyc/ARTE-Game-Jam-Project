@@ -911,6 +911,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Character:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d82efb8e0dec65b4dbaf47c50425e774,
+      type: 2}
   footLeft: {fileID: 4876171648468519230}
   footRight: {fileID: 5835120061686758129}
   kneeLeft: {fileID: 1869372307853332105}

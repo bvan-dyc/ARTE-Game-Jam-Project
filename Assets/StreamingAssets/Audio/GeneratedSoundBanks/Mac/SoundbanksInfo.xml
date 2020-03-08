@@ -1802,6 +1802,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3364702632" Name="Stop_Door" ObjectPath="\Events\Default Work Unit\Puzzles\Stop_Door" GUID="{89C49969-5E18-4C98-BF85-C868E4D425E0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="246911942" Name="Swing_Pendulum" ObjectPath="\Events\Default Work Unit\Puzzles\Swing_Pendulum" GUID="{9E9CA14E-02F2-41A3-A0A1-3DF1BE02D43D}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.242667" DurationMax="1.242667">
+					<IncludedMemoryFiles>
+						<File Id="558857442" Language="SFX">
+							<ShortName>Stab blade horror hit.wav</ShortName>
+							<Path>SFX\Stab blade horror hit_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="2607556080" GUID="{DA4B684B-2EA3-433A-95E6-4FEA7C793E9F}" Language="SFX">

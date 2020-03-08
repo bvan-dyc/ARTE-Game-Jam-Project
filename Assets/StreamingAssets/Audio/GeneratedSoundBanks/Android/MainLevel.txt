@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	246911942	Swing_Pendulum			\Default Work Unit\Puzzles\Swing_Pendulum	
 	278617630	Play_Ambience			\Default Work Unit\Game\Play_Ambience	
 	2934549620	Open_Door			\Default Work Unit\Puzzles\Open_Door	
 	3364702632	Stop_Door			\Default Work Unit\Puzzles\Stop_Door	
@@ -56,6 +57,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	506824628	20 Rattlesnake-24_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\20 Rattlesnake-24.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle1\20 Rattlesnake-24_L		529444
 	547844701	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_E206963F.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04		571888
 	554586054	Fly-dead01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\2-17 Fly 1_814896C8.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01		35200
+	558857442	Stab blade horror hit	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\Stab blade horror hit_B09F49DF.wem		\Actor-Mixer Hierarchy\_PUZZLES\Puzzles\Swing_Blade\Stab blade horror hit		33616
 	561007275	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L		82000
 	594695521	Fly-dead01_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\2-17 Fly 1_73390F41.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01_05		48880
 	637873587	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Android\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_666FE7FD.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02		693352

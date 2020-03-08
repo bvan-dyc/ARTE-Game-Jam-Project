@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID PUSH_BUTTON = 1679310360U;
         static const AkUniqueID SNAP_NECK = 812327625U;
         static const AkUniqueID STOP_DOOR = 3364702632U;
+        static const AkUniqueID SWING_PENDULUM = 246911942U;
         static const AkUniqueID WALK_HIPS = 1862655679U;
     } // namespace EVENTS
 

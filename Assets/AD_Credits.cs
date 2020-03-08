@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AD_MainLevelSound : MonoBehaviour
+public class AD_Credits : MonoBehaviour
 {
     void Start()
     {

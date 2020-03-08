@@ -47,6 +47,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace CHARACTER
+        {
+            static const AkUniqueID GROUP = 436743010U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BODY = 1845389165U;
+                static const AkUniqueID PLAYER = 1069431850U;
+            } // namespace SWITCH
+        } // namespace CHARACTER
+
         namespace SIDE
         {
             static const AkUniqueID GROUP = 704555244U;

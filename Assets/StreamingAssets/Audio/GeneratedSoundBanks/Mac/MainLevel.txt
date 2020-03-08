@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_Ambience			\Default Work Unit\Game\Play_Ambience	
-	2934549620	Open_Door			\Default Work Unit\Player\Actions\Open_Door	
+	2934549620	Open_Door			\Default Work Unit\Puzzles\Open_Door	
+	3364702632	Stop_Door			\Default Work Unit\Puzzles\Stop_Door	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4044678609	Music_Stage			\Default Work Unit\Music_Stage	

@@ -1581,7 +1581,7 @@
 			<ShortName>MainLevel</ShortName>
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Player\Actions\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="5.169192" DurationMax="5.249912">
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Puzzles\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="5.169192" DurationMax="5.249912">
 					<IncludedMemoryFiles>
 						<File Id="114909347" Language="SFX">
 							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.L.wav</ShortName>
@@ -1807,6 +1807,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3364702632" Name="Stop_Door" ObjectPath="\Events\Default Work Unit\Puzzles\Stop_Door" GUID="{89C49969-5E18-4C98-BF85-C868E4D425E0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="2607556080" GUID="{DA4B684B-2EA3-433A-95E6-4FEA7C793E9F}" Language="SFX">

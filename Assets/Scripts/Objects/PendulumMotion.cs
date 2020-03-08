@@ -30,7 +30,7 @@ public class PendulumMotion : MonoBehaviour
 			timeBeforeDestruction_s -= Time.deltaTime;
 			if (timeBeforeDestruction_s < 0)
 			{
-				Destroy(this);
+				Destroy(gameObject);
 			}
 		}
 		if (stopAfterOneSlash && currentTime >= 0.9)

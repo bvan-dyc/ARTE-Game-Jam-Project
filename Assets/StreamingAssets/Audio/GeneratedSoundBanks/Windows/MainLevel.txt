@@ -17,10 +17,12 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	3422665512	SFX_Negative			\Default Work Unit\SFX_Negative	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	9223852	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-02\Silence_02\Wwise Silence	
 	88011736	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Silence_01\Wwise Silence	
 	98574558	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Silence_02\Wwise Silence	
 	164245233	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-02\Silence_01\Wwise Silence	
 	195068058	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_02_YR\Silence_02\Wwise Silence	
+	250448024	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-01\Silence_02\Wwise Silence	
 	260467771	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-01\Silence\Wwise Silence	
 	354399332	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-02\Silence\Wwise Silence	
 	369196215	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_02_YR\Silence\Wwise Silence	
@@ -63,7 +65,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	547844701	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_E206963F.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04		571888
 	554586054	Fly-dead01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\2-17 Fly 1_814896C8.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01		35200
 	561007275	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L		82000
-	628943652	T19_Musicloop_Stage1	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage1_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage1\Stage1\T19_Musicloop_Stage1		4273632
 	637873587	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_666FE7FD.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02		693352
 	646335282	1-20 Single Cricket, Sporadic Chirps_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-20 Single Cricket, Sporadic Chirps_1232B192.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-01\1-20 Single Cricket, Sporadic Chirps_05		16264
 	652262258	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_FEB5B927.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_01		621856
@@ -81,4 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1016058736	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_R	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.R_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_R		14500
 	1024549556	Fly-dead01_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\2-17 Fly 1_73390F41.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01_05		48880
 	1060922546	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_L		15076
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	628943652	T19_Musicloop_Stage1	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage1_4811579D.wem	628943652.wem	\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage1\Stage1\T19_Musicloop_Stage1	
 

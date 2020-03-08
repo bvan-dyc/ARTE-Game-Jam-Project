@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance { get { return s_Instance; } }
  
     [SerializeField] protected GameObject bodyPrefab = null;
-    [SerializeField] protected AudioSource footstepsAudioSource = null;
+    [SerializeField] protected AudioSource mainAudioSource = null;
+    [SerializeField] protected AudioClip deathSoundClip = null;
     [SerializeField] protected float respawnDelay = 3;
     [SerializeField] protected int maxLives = 7;
     public DeathEvent OnDeath;
@@ -88,10 +89,13 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Player Died");
         respawning = true;
+        if (mainAudioSource)
+            mainAudioSource.PlayOneShot(deathSoundClip);
         currentBody.ResetBody();
         input.playerControllerInputBlocked = true;
         animator.SetTrigger(hashDeath);
         livesLeft -= 1;
+        OnDeath.Invoke(this);
         if (livesLeft <= 0)
             FinalDeath();
         else
@@ -142,7 +146,6 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(respawnDelay);
         SpawnFormerBody();
-        OnDeath.Invoke(this);
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.transform.position;

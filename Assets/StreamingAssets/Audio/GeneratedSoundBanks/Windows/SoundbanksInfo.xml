@@ -1568,7 +1568,7 @@
 			<ShortName>MainLevel</ShortName>
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
-				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Game\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="3476742" Language="SFX">
 							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
@@ -1577,10 +1577,6 @@
 						<File Id="16242142" Language="SFX">
 							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
 							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_A6DB35FD.wem</Path>
-						</File>
-						<File Id="26178213" Language="SFX">
-							<ShortName>AGJ_7Doors_Theme01_V2.wav</ShortName>
-							<Path>SFX\AGJ_7Doors_Theme01_V2_4811579D.wem</Path>
 						</File>
 						<File Id="26973891" Language="SFX">
 							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
@@ -1702,6 +1698,10 @@
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L_B09F49DF.wem</Path>
 						</File>
+						<File Id="628943652" Language="SFX">
+							<ShortName>T19_Musicloop_Stage1.wav</ShortName>
+							<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
+						</File>
 						<File Id="637873587" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
 							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_666FE7FD.wem</Path>
@@ -1783,6 +1783,9 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Game\Play_Music" GUID="{937A8116-A5B5-4EA2-8F37-6468F71CB3FF}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

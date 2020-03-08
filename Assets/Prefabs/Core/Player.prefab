@@ -823,7 +823,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPrefab: {fileID: 204462673269023414, guid: 88239757f4969f745b01d1b08737aae1,
     type: 3}
-  footstepsAudioSource: {fileID: 0}
+  mainAudioSource: {fileID: 4642537719457258161}
+  deathSoundClip: {fileID: 8300000, guid: c125c3c204eddcd4d9ae350b888828c7, type: 3}
   respawnDelay: 3
   maxLives: 7
   OnDeath:
@@ -1346,7 +1347,7 @@ GameObject:
   - component: {fileID: 4642537719457258161}
   - component: {fileID: 7643600739890344569}
   m_Layer: 8
-  m_Name: FootstepsAudioSources
+  m_Name: mainAudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

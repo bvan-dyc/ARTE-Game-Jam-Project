@@ -14,7 +14,7 @@ public class GameDebugger : MonoBehaviour
 			Reload();
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
-        if (playerDebugger && die)
+        if (playerDebugger && (die || Input.GetKeyDown(KeyCode.K)))
         {
             PlayerController.instance.OnDie();
             die = false;

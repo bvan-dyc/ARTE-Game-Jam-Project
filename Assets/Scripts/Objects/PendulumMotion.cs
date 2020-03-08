@@ -6,8 +6,7 @@ public class PendulumMotion : MonoBehaviour
 	[SerializeField] protected Quaternion RotateTo = Quaternion.identity;
 	[SerializeField] protected float Speed = 0.0f;
 	[SerializeField] protected bool launchOnStart = false;
-	[SerializeField] protected bool destroyAfterTime = false;
-	[SerializeField] protected float destructionTimer = 4;
+	[SerializeField] protected bool stopAfterOneSlash = false;
 
 	protected bool launch = false;
 
@@ -24,10 +23,14 @@ public class PendulumMotion : MonoBehaviour
 			return;
 		var currentTime = Mathf.SmoothStep(0.0f, 1.0f, Mathf.PingPong(Time.time * Speed, 1.0f));
 
-		transform.rotation = Quaternion.Slerp(RotateFrom, RotateTo, currentTime);
-		destructionTimer -= Time.deltaTime;
-		if (destructionTimer <= 0)
-			Destroy(gameObject);
+		if (stopAfterOneSlash && currentTime >= 0.95)
+		{
+			Speed = 0;
+		}
+		else
+		{
+			transform.rotation = Quaternion.Slerp(RotateFrom, RotateTo, currentTime);
+		}
 	}
 
 	public void LaunchPendulum()

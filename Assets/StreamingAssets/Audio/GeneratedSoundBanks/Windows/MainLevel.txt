@@ -1,5 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
-	278617630	Play_Ambience			\Default Work Unit\Ambience\Play_Ambience	
+	278617630	Play_Ambience			\Default Work Unit\Game\Play_Ambience	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4044678609	Music_Stage			\Default Work Unit\Music_Stage	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Stage			
+	936729720	Stage3	Music_Stage			
+	936729721	Stage2	Music_Stage			
+	936729722	Stage1	Music_Stage			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	395982976	SFX_Positive			\Default Work Unit\SFX_Positive	
+	607923225	SFX_DoorOpen			\Default Work Unit\SFX_DoorOpen	
+	777164721	SFX_Death			\Default Work Unit\SFX_Death	
+	3422665512	SFX_Negative			\Default Work Unit\SFX_Negative	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	88011736	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Silence_01\Wwise Silence	
@@ -18,7 +33,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3476742	1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_37889697.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\normal-01\1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_01		22024
 	16242142	1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_11	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_A6DB35FD.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\normal-01\1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_11		26128
-	26178213	AGJ_7Doors_Theme01_V2	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\AGJ_7Doors_Theme01_V2_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\New Music Playlist Container\New Music Segment\AGJ_7Doors_Theme01_V2		13396816
 	26973891	1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_B01F814D.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\normal-01\1-58 Insect,Cricket Field Cricket, C_U_ W_Bg Crickets_05		21232
 	65762299	1-20 Single Cricket, Sporadic Chirps	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-20 Single Cricket, Sporadic Chirps_CE12DC40.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-01\1-20 Single Cricket, Sporadic Chirps		17056
 	70481162	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_D5B9C165.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather		614728
@@ -49,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	547844701	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_E206963F.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04		571888
 	554586054	Fly-dead01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\2-17 Fly 1_814896C8.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01		35200
 	561007275	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-02_L		82000
+	628943652	T19_Musicloop_Stage1	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage1_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage1\Stage1\T19_Musicloop_Stage1		4273632
 	637873587	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_666FE7FD.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_02		693352
 	646335282	1-20 Single Cricket, Sporadic Chirps_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\1-20 Single Cricket, Sporadic Chirps_1232B192.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-01\1-20 Single Cricket, Sporadic Chirps_05		16264
 	652262258	66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_FEB5B927.wem		\Actor-Mixer Hierarchy\_AMB\Amb_2D\Wind\Wind_Haunting\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_01		621856

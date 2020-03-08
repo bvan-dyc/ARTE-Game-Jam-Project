@@ -7,7 +7,7 @@ using UnityEngine;
 public class Trap : MonoBehaviour
 {
     private BoxCollider _collider;
-    private Rigidbody _rigidbody;
+    // private Rigidbody _rigidbody;
     protected bool _triggered;
     
     private void Awake()
@@ -17,8 +17,8 @@ public class Trap : MonoBehaviour
         _collider = GetComponent<BoxCollider>();
         _collider.isTrigger = true;
         
-        _rigidbody = GetComponent<Rigidbody>();
-        _rigidbody.isKinematic = true;
+        // _rigidbody = GetComponent<Rigidbody>();
+        // _rigidbody.isKinematic = true;
     }
 
     private void OnTriggerEnter(Collider other)

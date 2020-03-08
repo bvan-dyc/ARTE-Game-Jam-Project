@@ -244,7 +244,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 926d289ad716554b8f1ed34c82304eb1
     GuidInternal: 
-    m_lastTime: -8586179302036990750
+    m_lastTime: -8586179177050650935
     List:
     - name: Main
       guid: f7c3354c6c1af04fb1171546c18aff4f
@@ -287,7 +287,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e302a0bc8f669d439975c5952b8ed776
     GuidInternal: 
-    m_lastTime: -8586179302036881049
+    m_lastTime: -8586179174069753801
     List:
     - name: Actions
       guid: f521cbf57178c04488aef4edbf11d1f9
@@ -302,20 +302,6 @@ MonoBehaviour:
       - ElementName: Actions
         ObjectType: 3
       Path: Default Work Unit\Player\Actions\Actions
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Activate_Pendulum
-      guid: 4ea19c9ef202a341a0a13df1be02d43d
-      id: 3079504231
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Puzzles
-        ObjectType: 4
-      - ElementName: Activate_Pendulum
-        ObjectType: 3
-      Path: Default Work Unit\Puzzles\Activate_Pendulum
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -561,16 +547,14 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Player
-        ObjectType: 4
-      - ElementName: Actions
+      - ElementName: Puzzles
         ObjectType: 4
       - ElementName: Open_Door
         ObjectType: 3
-      Path: Default Work Unit\Player\Actions\Open_Door
-      maxAttenuation: 0
-      maxDuration: 5249912
-      minDuration: 5169192
+      Path: Default Work Unit\Puzzles\Open_Door
+      maxAttenuation: 100000000
+      maxDuration: 6927301
+      minDuration: 6820790
     - name: Open_Tomb
       guid: 7f51048d9bf71f4587384360bde85f7d
       id: 4280068562
@@ -689,6 +673,20 @@ MonoBehaviour:
       maxAttenuation: 100000000
       maxDuration: 4073792
       minDuration: 3233371
+    - name: Stop_Door
+      guid: 6999c489185e984cbf85c868e4d425e0
+      id: 3364702632
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Puzzles
+        ObjectType: 4
+      - ElementName: Stop_Door
+        ObjectType: 3
+      Path: Default Work Unit\Puzzles\Stop_Door
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Music
       guid: e615d00ac5ac0243a2cb01562a56b68c
       id: 2837384057
@@ -703,6 +701,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Swing_Pendulum
+      guid: 4ea19c9ef202a341a0a13df1be02d43d
+      id: 246911942
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Puzzles
+        ObjectType: 4
+      - ElementName: Swing_Pendulum
+        ObjectType: 3
+      Path: Default Work Unit\Puzzles\Swing_Pendulum
+      maxAttenuation: 100000000
+      maxDuration: 1242667
+      minDuration: 1242667
     - name: T_Death
       guid: d6091e63296398499ff53946382af588
       id: 424862984
@@ -1162,8 +1174,10 @@ MonoBehaviour:
       Path: Default Work Unit\SFX_Positive
   ExpandedItems:
   - /ARTE_Pre-Alpha_team
-  - /ARTE_Pre-Alpha_team/Switches
-  - /ARTE_Pre-Alpha_team/Switches/Default Work Unit
-  - /ARTE_Pre-Alpha_team/Switches/Default Work Unit/Character
+  - /ARTE_Pre-Alpha_team/Events
+  - /ARTE_Pre-Alpha_team/Events/Default Work Unit
+  - /ARTE_Pre-Alpha_team/Events/Default Work Unit/Player
+  - /ARTE_Pre-Alpha_team/Events/Default Work Unit/Player/Actions
+  - /ARTE_Pre-Alpha_team/Events/Default Work Unit/Puzzles
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

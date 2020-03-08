@@ -10,6 +10,7 @@ public class FacingTrigger : MonoBehaviour
     protected List<Transform> bodies = new List<Transform>();
     [SerializeField] protected bool activated = false;
     protected int numberOfBodies = 0;
+    private const float tolerance = 0.9f;
 
     public bool IsActivated
     {
@@ -32,18 +33,21 @@ public class FacingTrigger : MonoBehaviour
         if (bodies.Count == 0)
             return;
         activated = BodiesFacing() == facing;
+        Debug.Log(activated);
     }
 
     private Direction BodiesFacing()
     {
-        if (bodies[0].transform.rotation.y > 315f || bodies[0].transform.rotation.y <= 45f)
-            return (Direction.forward);
-        else if (bodies[0].transform.rotation.y > 45f && bodies[0].transform.rotation.y <= 135f)
-            return (Direction.right);
-        else if (bodies[0].transform.rotation.y > 135f && bodies[0].transform.rotation.y <= 225f)
-            return (Direction.backward);
+        float leftDot = Vector3.Dot(-Vector3.right, bodies[0].transform.forward);
+        if (leftDot > tolerance)
+            return Direction.left;
+        if (leftDot < -tolerance)
+            return Direction.right;
+        float topDot = Vector3.Dot(-Vector3.forward, bodies[0].transform.forward);
+        if (topDot > tolerance)
+            return Direction.forward;
         else
-            return (Direction.left);
+            return Direction.backward;
     }
 
     private void OnTriggerEnter(Collider other)

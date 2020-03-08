@@ -18,6 +18,8 @@ public class Statues : MonoBehaviour
     private void Update()
     {
         cleared = CheckStatues();
+        if (cleared)
+            PlayerController.instance.OnDie();
     }
 
     private bool CheckStatues()

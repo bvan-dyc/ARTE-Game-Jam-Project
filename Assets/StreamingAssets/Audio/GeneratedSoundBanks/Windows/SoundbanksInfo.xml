@@ -1570,6 +1570,10 @@
 			<IncludedEvents>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="26178213" Language="SFX">
+							<ShortName>AGJ_7Doors_Theme01_V2.wav</ShortName>
+							<Path>SFX\AGJ_7Doors_Theme01_V2_4811579D.wem</Path>
+						</File>
 						<File Id="70481162" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
 							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_11D41F6C.wem</Path>

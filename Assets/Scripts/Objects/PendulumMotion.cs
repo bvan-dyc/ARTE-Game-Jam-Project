@@ -9,13 +9,16 @@ public class PendulumMotion : MonoBehaviour
 	[SerializeField] protected bool stopAfterOneSlash = false;
 	[SerializeField] protected bool destroyAfterTime = false;
 	[SerializeField] protected float timeBeforeDestruction_s = 4f;
+	[SerializeField] AK.Wwise.Event swingBladeSound;
 
 	protected bool launch = false;
+	private bool newSwing = true;
 
 	// Use this for initialization
 	void Start()
 	{
 		launch = launchOnStart;
+		if (swingBladeSound != null) swingBladeSound.Post(gameObject);
 	}
 
 	// Update is called once per frame

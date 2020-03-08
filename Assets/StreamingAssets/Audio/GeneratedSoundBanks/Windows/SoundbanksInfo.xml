@@ -1011,7 +1011,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.525333">
+				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1380,7 +1380,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
+				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>

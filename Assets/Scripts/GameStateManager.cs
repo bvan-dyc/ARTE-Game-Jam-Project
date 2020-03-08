@@ -8,8 +8,8 @@ public class GameStateManager : MonoBehaviour
 {
     protected UserInput input;
     [SerializeField] private Image fadeScreen = null;
-    [SerializeField] private float fadeDuration = 1f;
-    [SerializeField] private float loadDelay = 5f;
+    [SerializeField] private float fadeDuration = 2f;
+    [SerializeField] private float loadDelay = 3f;
     [SerializeField] private bool fadeInOnLoad = false;
     [SerializeField] private Text mainText = null;
     [SerializeField] private string victoryString = "YOU DIED";

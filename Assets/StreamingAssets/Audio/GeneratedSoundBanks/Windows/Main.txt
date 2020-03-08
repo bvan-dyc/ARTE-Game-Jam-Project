@@ -1,3 +1,34 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2932040671	Play_Music			\Default Work Unit\Game\Play_Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	4044678609	Music_Stage			\Default Work Unit\Music_Stage	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Stage			
+	936729720	Stage3	Music_Stage			
+	936729721	Stage2	Music_Stage			
+	936729722	Stage1	Music_Stage			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	395982976	SFX_Positive			\Default Work Unit\SFX_Positive	
+	607923225	SFX_DoorOpen			\Default Work Unit\SFX_DoorOpen	
+	777164721	SFX_Death			\Default Work Unit\SFX_Death	
+	3422665512	SFX_Negative			\Default Work Unit\SFX_Negative	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	72125685	T19_Positive_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Positive_SFX_03_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Positive\T19_Positive_SFX_01		297144
+	89554519	T19_Death_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Death_SFX_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Death\T19_Death_SFX_01		875376
+	176262837	T19_Positive_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Positive_SFX_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Positive\T19_Positive_SFX_01		344376
+	322112426	T19_Door Open_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Door Open_SFX_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_DoorOpen\T19_Door Open_SFX_01		573912
+	480427049	T19_Door Open_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Door Open_SFX_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_DoorOpen\T19_Door Open_SFX_01		459144
+	501162858	T19_Negative_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Negative_SFX_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Negative\T19_Negative_SFX_01		202608
+	691394321	T19_Positive_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Positive_SFX_04_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Positive\T19_Positive_SFX_01		364608
+	806660354	T19_Negative_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Negative_SFX_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Negative\T19_Negative_SFX_01		162144
+	983644445	T19_Positive_SFX_01	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Positive_SFX_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Positive\T19_Positive_SFX_01		297144
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	380595941	T19_Musicloop_Stage2	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage2_4811579D.wem	380595941.wem	\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage2\Stage2\T19_Musicloop_Stage2	
+	628943652	T19_Musicloop_Stage1	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage1_4811579D.wem	628943652.wem	\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage1\Stage1\T19_Musicloop_Stage1	
+	1028732095	T19_Musicloop_Stage3	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage3_4811579D.wem	1028732095.wem	\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage3\Stage3\T19_Musicloop_Stage3	
+

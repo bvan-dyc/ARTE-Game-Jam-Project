@@ -21,11 +21,29 @@ namespace AK
         static const AkUniqueID HIT_KNEE = 1773028838U;
         static const AkUniqueID HIT_TORSO = 1156575892U;
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PRESTEP_SHOULDER = 2169618665U;
         static const AkUniqueID PUSH_BUTTON = 1679310360U;
         static const AkUniqueID SNAP_NECK = 812327625U;
         static const AkUniqueID WALK_HIPS = 1862655679U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC_STAGE
+        {
+            static const AkUniqueID GROUP = 4044678609U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STAGE1 = 936729722U;
+                static const AkUniqueID STAGE2 = 936729721U;
+                static const AkUniqueID STAGE3 = 936729720U;
+            } // namespace STATE
+        } // namespace MUSIC_STAGE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -63,6 +81,14 @@ namespace AK
         static const AkUniqueID SS_AIR_TIMEOFDAY = 3203397129U;
         static const AkUniqueID SS_AIR_TURBULENCE = 4160247818U;
     } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID SFX_DEATH = 777164721U;
+        static const AkUniqueID SFX_DOOROPEN = 607923225U;
+        static const AkUniqueID SFX_NEGATIVE = 3422665512U;
+        static const AkUniqueID SFX_POSITIVE = 395982976U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

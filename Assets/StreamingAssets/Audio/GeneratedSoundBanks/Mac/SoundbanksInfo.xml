@@ -1581,31 +1581,23 @@
 			<ShortName>MainLevel</ShortName>
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Player\Actions\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="1.860169" DurationMax="2.337268">
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Player\Actions\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="5.169192" DurationMax="5.249912">
 					<IncludedMemoryFiles>
-						<File Id="52325075" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-01.R.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-01.R_4F6CDCB2.wem</Path>
+						<File Id="114909347" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.L.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-01.L_A56E2F64.wem</Path>
 						</File>
-						<File Id="171724441" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-05.R.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-05.R_76C48B47.wem</Path>
+						<File Id="197648232" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-03.R.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-03.R_017C0E2B.wem</Path>
 						</File>
-						<File Id="424280984" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-05.L.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-05.L_8386E127.wem</Path>
+						<File Id="406956297" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.R.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-01.R_AFA888A9.wem</Path>
 						</File>
-						<File Id="511404300" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-03.L.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-03.L_B3BECA97.wem</Path>
-						</File>
-						<File Id="1049134478" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-01.L.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-01.L_76F91E88.wem</Path>
-						</File>
-						<File Id="1053974437" Language="SFX">
-							<ShortName>74 - Tombstone,Grind Stone Dragging On Stone 3-03.R.wav</ShortName>
-							<Path>SFX\74 - Tombstone,Grind Stone Dragging On Stone 3-03.R_C79D5AA6.wem</Path>
+						<File Id="1033387761" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-03.L.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-03.L_65DFBAD5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

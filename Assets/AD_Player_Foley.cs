@@ -40,6 +40,10 @@ public class AD_Player_Foley : MonoBehaviour
         AkSoundEngine.SetSwitch("Side", "right", elbowRight);
         AkSoundEngine.SetSwitch("Side", "left", handLeft);
         AkSoundEngine.SetSwitch("Side", "right", handRight);
+        AkSoundEngine.SetSwitch("Side", "right", hips);
+        AkSoundEngine.SetSwitch("Side", "right", back);
+        AkSoundEngine.SetSwitch("Side", "right", neck);
+        AkSoundEngine.SetSwitch("Side", "right", head);
     }
 
     #region Animation Events

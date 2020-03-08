@@ -16,7 +16,7 @@
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1420004310" Name="Bones_Elbow" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Elbow" GUID="{4F69E2CA-7DAE-469E-BD21-48EA078B8D40}" DurationType="OneShot" DurationMin="0.450844" DurationMax="0.624826">
+				<Event Id="1420004310" Name="Bones_Elbow" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Elbow" GUID="{4F69E2CA-7DAE-469E-BD21-48EA078B8D40}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.450844" DurationMax="0.624826">
 					<IncludedMemoryFiles>
 						<File Id="122085856" Language="SFX">
 							<ShortName>FOL_Bone_Single-00.wav</ShortName>
@@ -100,7 +100,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1510201124" Name="Bones_Knee" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Knee" GUID="{4C4BC267-7008-4E80-B41C-25ECAE6BE163}" DurationType="OneShot" DurationMin="0.299365" DurationMax="0.653062">
+				<Event Id="1510201124" Name="Bones_Knee" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Knee" GUID="{4C4BC267-7008-4E80-B41C-25ECAE6BE163}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.299365" DurationMax="0.653062">
 					<IncludedMemoryFiles>
 						<File Id="122085856" Language="SFX">
 							<ShortName>FOL_Bone_Single-00.wav</ShortName>
@@ -184,7 +184,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Foley\Footstep" GUID="{64BAD681-05F6-463C-ADD6-AF7E3B46970B}" DurationType="OneShot" DurationMin="0.719978" DurationMax="1.428314">
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Foley\Footstep" GUID="{64BAD681-05F6-463C-ADD6-AF7E3B46970B}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.719978" DurationMax="1.428314">
 					<IncludedMemoryFiles>
 						<File Id="12906320" Language="SFX">
 							<ShortName>VV_FOLEY_KidBF_Walk_SandDirt_Foot-Right - 08.wav</ShortName>
@@ -870,7 +870,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4073051257" Name="Hit_Head" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Head" GUID="{C3BF3E80-4940-4EC1-A94E-3B45A7D6811B}" DurationType="OneShot" DurationMin="0.719809" DurationMax="0.719809">
+				<Event Id="4073051257" Name="Hit_Head" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Head" GUID="{C3BF3E80-4940-4EC1-A94E-3B45A7D6811B}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.719809" DurationMax="0.719809">
 					<IncludedMemoryFiles>
 						<File Id="26985541" Language="SFX">
 							<ShortName>Skull or Rock Roll Fall to Floor_592978.wav</ShortName>
@@ -914,7 +914,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3921464293" Name="Hit_Hips" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Hips" GUID="{CCD8AA05-22A2-4208-9F2D-74356BDC4BDB}" DurationType="OneShot" DurationMin="0.241720" DurationMax="1.029084">
+				<Event Id="3921464293" Name="Hit_Hips" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Hips" GUID="{CCD8AA05-22A2-4208-9F2D-74356BDC4BDB}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.241720" DurationMax="1.029084">
 					<IncludedMemoryFiles>
 						<File Id="123003143" Language="SFX">
 							<ShortName>FOL_Rope_Step-04.wav</ShortName>
@@ -974,11 +974,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1773028838" Name="Hit_Knee" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Knee" GUID="{7C394BB4-99AB-476B-9552-68A44091F9A9}" DurationType="OneShot" DurationMin="0.914337" DurationMax="1.126001">
+				<Event Id="1773028838" Name="Hit_Knee" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Knee" GUID="{7C394BB4-99AB-476B-9552-68A44091F9A9}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.914337" DurationMax="1.126001">
 					<IncludedMemoryFiles>
 						<File Id="329842469" Language="SFX">
 							<ShortName>bone break - mix crunchy - 01.wav</ShortName>
-							<Path>SFX\bone break - mix crunchy - 01_2CDCBF37.wem</Path>
+							<Path>SFX\bone break - mix crunchy - 01_BCE8397A.wem</Path>
 						</File>
 						<File Id="369072629" Language="SFX">
 							<ShortName>bone break - celery - skeleton  low - 12.wav</ShortName>
@@ -1006,7 +1006,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.525333">
+				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.525333">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1375,7 +1375,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
+				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1468,7 +1468,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1679310360" Name="Push_Button" ObjectPath="\Events\Default Work Unit\Player\Actions\Push_Button" GUID="{C7737995-F017-4341-9504-FAEBF2E3EF31}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="812327625" Name="Snap_Neck" ObjectPath="\Events\Default Work Unit\Player\Damage\Snap_Neck" GUID="{F6D6B1C3-1515-4E6C-BC1E-F7B5BFF84CE6}" DurationType="OneShot" DurationMin="3.233371" DurationMax="4.073792">
+				<Event Id="812327625" Name="Snap_Neck" ObjectPath="\Events\Default Work Unit\Player\Damage\Snap_Neck" GUID="{F6D6B1C3-1515-4E6C-BC1E-F7B5BFF84CE6}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="3.233371" DurationMax="4.073792">
 					<IncludedMemoryFiles>
 						<File Id="333278475" Language="SFX">
 							<ShortName>Bone_Break_B-01.L.wav</ShortName>
@@ -1488,7 +1488,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1862655679" Name="Walk_Hips" ObjectPath="\Events\Default Work Unit\Player\Foley\Walk_Hips" GUID="{8C2C48AC-6874-4836-8994-D9E130D17322}" DurationType="OneShot" DurationMin="0.241720" DurationMax="1.029084">
+				<Event Id="1862655679" Name="Walk_Hips" ObjectPath="\Events\Default Work Unit\Player\Foley\Walk_Hips" GUID="{8C2C48AC-6874-4836-8994-D9E130D17322}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.194083" DurationMax="0.826275">
 					<IncludedMemoryFiles>
 						<File Id="123003143" Language="SFX">
 							<ShortName>FOL_Rope_Step-04.wav</ShortName>
@@ -1570,21 +1570,53 @@
 			<IncludedEvents>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="3476742" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_37889697.wem</Path>
+						</File>
+						<File Id="16242142" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_A6DB35FD.wem</Path>
+						</File>
 						<File Id="26178213" Language="SFX">
 							<ShortName>AGJ_7Doors_Theme01_V2.wav</ShortName>
 							<Path>SFX\AGJ_7Doors_Theme01_V2_4811579D.wem</Path>
 						</File>
+						<File Id="26973891" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_B01F814D.wem</Path>
+						</File>
+						<File Id="65762299" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_CE12DC40.wem</Path>
+						</File>
 						<File Id="70481162" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_11D41F6C.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_D5B9C165.wem</Path>
 						</File>
 						<File Id="116334312" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-12.R.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-12.R_B09F49DF.wem</Path>
 						</File>
+						<File Id="148156269" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_15DF2C22.wem</Path>
+						</File>
+						<File Id="161997565" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_B603DBF7.wem</Path>
+						</File>
+						<File Id="165076842" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_BCCE8D2A.wem</Path>
+						</File>
 						<File Id="176566323" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-06.L.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-06.L_B09F49DF.wem</Path>
+						</File>
+						<File Id="178639412" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_79DF04F2.wem</Path>
 						</File>
 						<File Id="199103954" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-08.L.wav</ShortName>
@@ -1594,9 +1626,33 @@
 							<ShortName>20 Rattlesnake-02.R.wav</ShortName>
 							<Path>SFX\20 Rattlesnake-02.R_B09F49DF.wem</Path>
 						</File>
+						<File Id="244658159" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_F37ED5A3.wem</Path>
+						</File>
+						<File Id="255361317" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_E84D7320.wem</Path>
+						</File>
+						<File Id="258583136" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_23BF97EB.wem</Path>
+						</File>
+						<File Id="258938377" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_04F33BC0.wem</Path>
+						</File>
+						<File Id="270365840" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_6955C6D0.wem</Path>
+						</File>
 						<File Id="316692555" Language="SFX">
 							<ShortName>36 - Desert,Day Desert Wind Over Sand.wav</ShortName>
-							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_5925BF99.wem</Path>
+							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_21AA21EF.wem</Path>
+						</File>
+						<File Id="343228109" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_8ECF4429.wem</Path>
 						</File>
 						<File Id="377921115" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-10.L.wav</ShortName>
@@ -1608,7 +1664,7 @@
 						</File>
 						<File Id="433752695" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_34D8091F.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_9B0BA116.wem</Path>
 						</File>
 						<File Id="451429553" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-08.R.wav</ShortName>
@@ -1618,13 +1674,17 @@
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-06.R.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-06.R_B09F49DF.wem</Path>
 						</File>
+						<File Id="473834315" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_60B74F8D.wem</Path>
+						</File>
 						<File Id="490931753" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-10.R.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-10.R_B09F49DF.wem</Path>
 						</File>
 						<File Id="506682247" Language="SFX">
 							<ShortName>36 - Desert,Day Desert Wind Over Sand.wav</ShortName>
-							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_F21C700F.wem</Path>
+							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_9BAE200B.wem</Path>
 						</File>
 						<File Id="506824628" Language="SFX">
 							<ShortName>20 Rattlesnake-24.L.wav</ShortName>
@@ -1632,7 +1692,11 @@
 						</File>
 						<File Id="547844701" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_99761E58.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_E206963F.wem</Path>
+						</File>
+						<File Id="554586054" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_814896C8.wem</Path>
 						</File>
 						<File Id="561007275" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L.wav</ShortName>
@@ -1640,11 +1704,15 @@
 						</File>
 						<File Id="637873587" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_2EF01789.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_666FE7FD.wem</Path>
+						</File>
+						<File Id="646335282" Language="SFX">
+							<ShortName>1-20 Single Cricket, Sporadic Chirps.wav</ShortName>
+							<Path>SFX\1-20 Single Cricket, Sporadic Chirps_1232B192.wem</Path>
 						</File>
 						<File Id="652262258" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_0AAF6B16.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_FEB5B927.wem</Path>
 						</File>
 						<File Id="674328060" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-14.L.wav</ShortName>
@@ -1652,15 +1720,23 @@
 						</File>
 						<File Id="678469013" Language="SFX">
 							<ShortName>36 - Desert,Day Desert Wind Over Sand.wav</ShortName>
-							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_AFF8EE1B.wem</Path>
+							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_2F22092B.wem</Path>
+						</File>
+						<File Id="686649146" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_F740660A.wem</Path>
 						</File>
 						<File Id="703890090" Language="SFX">
 							<ShortName>36 - Desert,Day Desert Wind Over Sand.wav</ShortName>
-							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_774F61E5.wem</Path>
+							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_5DEB489A.wem</Path>
+						</File>
+						<File Id="761581438" Language="SFX">
+							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
+							<Path>SFX\1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets_ADE6E849.wem</Path>
 						</File>
 						<File Id="809681597" Language="SFX">
 							<ShortName>36 - Desert,Day Desert Wind Over Sand.wav</ShortName>
-							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_1135F038.wem</Path>
+							<Path>SFX\36 - Desert,Day Desert Wind Over Sand_675BD78E.wem</Path>
 						</File>
 						<File Id="825877457" Language="SFX">
 							<ShortName>77 Snake, Bull-02.L.wav</ShortName>
@@ -1668,15 +1744,27 @@
 						</File>
 						<File Id="827513838" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>
-							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_6859EACB.wem</Path>
+							<Path>SFX\66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather_04B3A026.wem</Path>
+						</File>
+						<File Id="877902453" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_6020A96B.wem</Path>
 						</File>
 						<File Id="971801635" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.R.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.R_B09F49DF.wem</Path>
 						</File>
+						<File Id="1009834819" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_03DD9202.wem</Path>
+						</File>
 						<File Id="1016058736" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.R.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.R_B09F49DF.wem</Path>
+						</File>
+						<File Id="1024549556" Language="SFX">
+							<ShortName>2-17 Fly 1.wav</ShortName>
+							<Path>SFX\2-17 Fly 1_73390F41.wem</Path>
 						</File>
 						<File Id="1060922546" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.L.wav</ShortName>

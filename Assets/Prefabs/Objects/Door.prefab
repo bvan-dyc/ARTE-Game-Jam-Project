@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!208 &1660981972
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3513184428573619315}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8446078134979071417
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +27,7 @@ GameObject:
   - component: {fileID: 8446078134979071416}
   - component: {fileID: 8446078134979071413}
   - component: {fileID: 8446078134979071418}
-  - component: {fileID: 8446078134979071419}
+  - component: {fileID: 1077974337}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -59,7 +75,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 58a503494485df4438cb2ca0144f1d23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,19 +96,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8446078134979071419
-BoxCollider:
+--- !u!208 &1077974337
+NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8446078134979071417}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8446078136328985486
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +123,6 @@ GameObject:
   - component: {fileID: 8446078136328985481}
   - component: {fileID: 8446078136328985482}
   - component: {fileID: 8446078136328985483}
-  - component: {fileID: 8446078136328985480}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -152,7 +170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 58a503494485df4438cb2ca0144f1d23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -173,19 +191,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8446078136328985480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8446078136328985486}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8446078136353494963
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +236,7 @@ GameObject:
   - component: {fileID: 8446078136362893308}
   - component: {fileID: 8446078136362893305}
   - component: {fileID: 8446078136362893310}
-  - component: {fileID: 8446078136362893311}
+  - component: {fileID: 1858066407}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -279,7 +284,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 58a503494485df4438cb2ca0144f1d23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -300,19 +305,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8446078136362893311
-BoxCollider:
+--- !u!208 &1858066407
+NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8446078136362893309}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8446078136507504856
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 8446078136507504856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 3519402219463759219}
   - {fileID: 8446078136353494962}
@@ -359,8 +367,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.568888, y: 0.87651825, z: 10.656329}
+  m_Center: {x: 0.5995742, y: -0.061740875, z: -1.3101158}
 --- !u!114 &8446078136507504858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,7 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   OnEnter:
     m_PersistentCalls:
       m_Calls:
@@ -479,7 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2de3a12fab21545b7bb0bcb8717c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quantity: 4
+  quantity: 1
 --- !u!1 &8446078136943286020
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +499,7 @@ GameObject:
   - component: {fileID: 8446078136943286023}
   - component: {fileID: 8446078136943286016}
   - component: {fileID: 8446078136943286017}
-  - component: {fileID: 8446078136943286022}
+  - component: {fileID: 821451352}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -539,7 +547,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 58a503494485df4438cb2ca0144f1d23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -560,19 +568,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8446078136943286022
-BoxCollider:
+--- !u!208 &821451352
+NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8446078136943286020}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &8446078136269976844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -585,6 +596,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4986465103108753427, guid: b68d4daae4e297c49a8d8c0dd7423c44,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017543106954011843, guid: b68d4daae4e297c49a8d8c0dd7423c44,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a503494485df4438cb2ca0144f1d23, type: 2}
     - target: {fileID: 5035326735563579519, guid: b68d4daae4e297c49a8d8c0dd7423c44,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -673,11 +694,18 @@ PrefabInstance:
     - target: {fileID: 8149346128564274455, guid: b68d4daae4e297c49a8d8c0dd7423c44,
         type: 3}
       propertyPath: end.y
-      value: -5
+      value: -4.95
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4978708637717296095, guid: b68d4daae4e297c49a8d8c0dd7423c44, type: 3}
+    - {fileID: 4978690057942972633, guid: b68d4daae4e297c49a8d8c0dd7423c44, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b68d4daae4e297c49a8d8c0dd7423c44, type: 3}
+--- !u!1 &3513184428573619315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5041544277268676991, guid: b68d4daae4e297c49a8d8c0dd7423c44,
+    type: 3}
+  m_PrefabInstance: {fileID: 8446078136269976844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &301235883562496027 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8149346128564274455, guid: b68d4daae4e297c49a8d8c0dd7423c44,

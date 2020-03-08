@@ -16,6 +16,7 @@ public class LifeUI : MonoBehaviour {
 	IEnumerator Start()
 	{
 		representedPlayerController = PlayerController.instance;
+		representedPlayerController.OnDeath.AddListener(RefreshLivesUI);
 		if (representedPlayerController == null)
 			yield break;
 

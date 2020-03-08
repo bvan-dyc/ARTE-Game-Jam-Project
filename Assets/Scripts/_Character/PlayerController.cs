@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
     public class DeathEvent : UnityEvent<PlayerController>
     { }
 
+    [Serializable]
+    public class FinalDeathEvent : UnityEvent<PlayerController>
+    { }
+
     protected static PlayerController s_Instance;
     public static PlayerController instance { get { return s_Instance; } }
  
@@ -21,6 +25,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] protected float respawnDelay = 3;
     [SerializeField] protected int maxLives = 7;
     public DeathEvent OnDeath;
+    public FinalDeathEvent OnFinalDeath;
 
     protected UserInput input;
     protected Checkpoint _CurrentCheckpoint;
@@ -86,8 +91,16 @@ public class PlayerController : MonoBehaviour
         currentBody.ResetBody();
         input.playerControllerInputBlocked = true;
         animator.SetTrigger(hashDeath);
-        livesLeft--;
-        Respawn();
+        livesLeft -= 1;
+        if (livesLeft <= 0)
+            FinalDeath();
+        else
+            Respawn();
+    }
+
+    public void FinalDeath()
+    {
+        OnFinalDeath.Invoke(this);
     }
 
     private void SpawnFormerBody()

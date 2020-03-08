@@ -23,7 +23,7 @@ public class Checkpoint : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.tag == "Player")
+		if (!initialLevelSpawn && other.tag == "Player")
 		{
 			PlayerController controller = other.GetComponent<PlayerController>();
 

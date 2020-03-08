@@ -7,6 +7,7 @@ using UnityEngine;
 public class TwoSideTranslator : SimpleTranslator
 {
     private float twoSideTranslation;
+    private bool isSliding = false;
 
     public void FixedUpdate()
     {
@@ -29,6 +30,7 @@ public class TwoSideTranslator : SimpleTranslator
     {
         Debug.Log("activate");
         activate = true;
+        isSliding = true;
     }
 
     public void Deactivate()

@@ -244,7 +244,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 926d289ad716554b8f1ed34c82304eb1
     GuidInternal: 
-    m_lastTime: -8586179364043192694
+    m_lastTime: -8586179302036990750
     List:
     - name: Main
       guid: f7c3354c6c1af04fb1171546c18aff4f
@@ -287,7 +287,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e302a0bc8f669d439975c5952b8ed776
     GuidInternal: 
-    m_lastTime: -8586179328650535707
+    m_lastTime: -8586179302036881049
     List:
     - name: Actions
       guid: f521cbf57178c04488aef4edbf11d1f9
@@ -555,6 +555,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Open_Door
+      guid: 6511dcfe8ae2514c9775b2f375643fcf
+      id: 2934549620
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Open_Door
+        ObjectType: 3
+      Path: Default Work Unit\Player\Actions\Open_Door
+      maxAttenuation: 0
+      maxDuration: 5249912
+      minDuration: 5169192
     - name: Open_Tomb
       guid: 7f51048d9bf71f4587384360bde85f7d
       id: 4280068562
@@ -595,8 +611,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Game\Play_Music
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Player
       guid: 6cbfa8b46b0229469e4d4a831156b7d6
       id: 1069431850
@@ -673,6 +689,20 @@ MonoBehaviour:
       maxAttenuation: 100000000
       maxDuration: 4073792
       minDuration: 3233371
+    - name: Stop_Music
+      guid: e615d00ac5ac0243a2cb01562a56b68c
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game
+        ObjectType: 4
+      - ElementName: Stop_Music
+        ObjectType: 3
+      Path: Default Work Unit\Game\Stop_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: T_Death
       guid: d6091e63296398499ff53946382af588
       id: 424862984

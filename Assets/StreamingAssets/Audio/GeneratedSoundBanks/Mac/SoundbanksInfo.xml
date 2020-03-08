@@ -9,9 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="380595941" Language="SFX">
+			<ShortName>T19_Musicloop_Stage2.wav</ShortName>
+			<Path>SFX\T19_Musicloop_Stage2_4811579D.wem</Path>
+		</File>
 		<File Id="628943652" Language="SFX">
 			<ShortName>T19_Musicloop_Stage1.wav</ShortName>
 			<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
+		</File>
+		<File Id="1028732095" Language="SFX">
+			<ShortName>T19_Musicloop_Stage3.wav</ShortName>
+			<Path>SFX\T19_Musicloop_Stage3_4811579D.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -1011,7 +1019,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.525333">
+				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1380,7 +1388,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
+				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1573,6 +1581,26 @@
 			<ShortName>MainLevel</ShortName>
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Player\Actions\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="5.169192" DurationMax="5.249912">
+					<IncludedMemoryFiles>
+						<File Id="114909347" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.L.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-01.L_A56E2F64.wem</Path>
+						</File>
+						<File Id="197648232" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-03.R.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-03.R_017C0E2B.wem</Path>
+						</File>
+						<File Id="406956297" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.R.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-01.R_AFA888A9.wem</Path>
+						</File>
+						<File Id="1033387761" Language="SFX">
+							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-03.L.wav</ShortName>
+							<Path>SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-03.L_65DFBAD5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Game\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="628943652" Language="SFX">
@@ -1791,8 +1819,94 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Game\Play_Music" GUID="{937A8116-A5B5-4EA2-8F37-6468F71CB3FF}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Game\Play_Music" GUID="{937A8116-A5B5-4EA2-8F37-6468F71CB3FF}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="380595941" Language="SFX">
+							<ShortName>T19_Musicloop_Stage2.wav</ShortName>
+							<Path>SFX\T19_Musicloop_Stage2_4811579D.wem</Path>
+						</File>
+						<File Id="628943652" Language="SFX">
+							<ShortName>T19_Musicloop_Stage1.wav</ShortName>
+							<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
+						</File>
+						<File Id="1028732095" Language="SFX">
+							<ShortName>T19_Musicloop_Stage3.wav</ShortName>
+							<Path>SFX\T19_Musicloop_Stage3_4811579D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="72125685" Language="SFX">
+							<ShortName>T19_Positive_SFX_03.wav</ShortName>
+							<Path>SFX\T19_Positive_SFX_03_4811579D.wem</Path>
+						</File>
+						<File Id="89554519" Language="SFX">
+							<ShortName>T19_Death_SFX_01.wav</ShortName>
+							<Path>SFX\T19_Death_SFX_01_4811579D.wem</Path>
+						</File>
+						<File Id="176262837" Language="SFX">
+							<ShortName>T19_Positive_SFX_01.wav</ShortName>
+							<Path>SFX\T19_Positive_SFX_01_4811579D.wem</Path>
+						</File>
+						<File Id="322112426" Language="SFX">
+							<ShortName>T19_Door Open_SFX_02.wav</ShortName>
+							<Path>SFX\T19_Door Open_SFX_02_4811579D.wem</Path>
+						</File>
+						<File Id="480427049" Language="SFX">
+							<ShortName>T19_Door Open_SFX_01.wav</ShortName>
+							<Path>SFX\T19_Door Open_SFX_01_4811579D.wem</Path>
+						</File>
+						<File Id="501162858" Language="SFX">
+							<ShortName>T19_Negative_SFX_01.wav</ShortName>
+							<Path>SFX\T19_Negative_SFX_01_4811579D.wem</Path>
+						</File>
+						<File Id="691394321" Language="SFX">
+							<ShortName>T19_Positive_SFX_04.wav</ShortName>
+							<Path>SFX\T19_Positive_SFX_04_4811579D.wem</Path>
+						</File>
+						<File Id="806660354" Language="SFX">
+							<ShortName>T19_Negative_SFX_02.wav</ShortName>
+							<Path>SFX\T19_Negative_SFX_02_4811579D.wem</Path>
+						</File>
+						<File Id="983644445" Language="SFX">
+							<ShortName>T19_Positive_SFX_02.wav</ShortName>
+							<Path>SFX\T19_Positive_SFX_02_4811579D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8DD934A6-5F7B-4EC4-8B5A-314C0B511CE8}">
+							<Media>
+								<File Id="1028732095"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A1AA5EC0-2C9F-4700-AA6D-F62A7088D431}">
+							<Media>
+								<File Id="628943652"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{04DBB519-48B8-402D-82B5-7C221363F694}">
+							<Media>
+								<File Id="380595941"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="4044678609" Name="Music_Stage" ObjectPath="\States\Default Work Unit\Music_Stage" GUID="{8DD934A6-5F7B-4EC4-8B5A-314C0B511CE8}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Stage\None" GUID="{87B7E8D7-4BFE-4105-8DB4-9286C6536246}"/>
+						<State Id="936729722" Name="Stage1" ObjectPath="\States\Default Work Unit\Music_Stage\Stage1" GUID="{A1AA5EC0-2C9F-4700-AA6D-F62A7088D431}"/>
+						<State Id="936729721" Name="Stage2" ObjectPath="\States\Default Work Unit\Music_Stage\Stage2" GUID="{04DBB519-48B8-402D-82B5-7C221363F694}"/>
+						<State Id="936729720" Name="Stage3" ObjectPath="\States\Default Work Unit\Music_Stage\Stage3" GUID="{6BEAE2DC-E1F0-4510-8745-1FD65F71F617}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="395982976" Name="SFX_Positive" ObjectPath="\Triggers\Default Work Unit\SFX_Positive" GUID="{01B32F16-CC25-4C8A-A70A-926CC404429B}"/>
+				<Trigger Id="607923225" Name="SFX_DoorOpen" ObjectPath="\Triggers\Default Work Unit\SFX_DoorOpen" GUID="{FC54D8CF-7DF8-450F-A7D4-4EDBC6A5DBEF}"/>
+				<Trigger Id="777164721" Name="SFX_Death" ObjectPath="\Triggers\Default Work Unit\SFX_Death" GUID="{BF880022-66B6-4FF3-84C0-16B5E8171EDA}"/>
+				<Trigger Id="3422665512" Name="SFX_Negative" ObjectPath="\Triggers\Default Work Unit\SFX_Negative" GUID="{00091C30-0F39-486F-8B70-99E107D6BEA1}"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

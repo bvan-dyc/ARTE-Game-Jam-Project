@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PRESTEP_SHOULDER = 2169618665U;
         static const AkUniqueID PUSH_BUTTON = 1679310360U;
         static const AkUniqueID SNAP_NECK = 812327625U;
+        static const AkUniqueID STOP_DOOR = 3364702632U;
         static const AkUniqueID WALK_HIPS = 1862655679U;
     } // namespace EVENTS
 

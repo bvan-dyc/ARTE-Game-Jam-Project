@@ -16,19 +16,23 @@ public class GameStateManager : MonoBehaviour
 
     void Start()
     {
+        /*
         if (fadeInOnLoad)
         {
             PlayerController.instance.OnFinalDeath.AddListener(GameEnd);
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, 1);
             StartCoroutine(UIExtensions.ImageFadeOutRoutine(fadeScreen, fadeDuration));
         }
+        */
     }
 
     void GameEnd(PlayerController player)
     {
         StartCoroutine(EndRoutine(loadDelay));
+        /*
         StartCoroutine(UIExtensions.TypeTextRoutine(victoryString, mainText, 0.2f));
         StartCoroutine(UIExtensions.ImageFadeInRoutine(fadeScreen, fadeDuration));
+        */
     }
 
     IEnumerator EndRoutine(float delay)

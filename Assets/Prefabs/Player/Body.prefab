@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 21324861699397970}
   m_LocalRotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6168444259493657434}
   m_RootOrder: 1
@@ -49,7 +49,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8132693007442365763, guid: b2614743782bef44f83f550d47e5dec1, type: 3}
+  - {fileID: 2100000, guid: 9e7e6423bc5374946aae428713cf41ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -158,7 +158,6 @@ GameObject:
   - component: {fileID: 8511968005911403245}
   - component: {fileID: 1402492532257259224}
   - component: {fileID: 7869549626901737226}
-  - component: {fileID: 1598750317397781739}
   - component: {fileID: 7907160353896381972}
   m_Layer: 8
   m_Name: Body
@@ -206,7 +205,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 204462673269023414}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -215,7 +214,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 6
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -238,22 +237,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!54 &1598750317397781739
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204462673269023414}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &7907160353896381972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -265,8 +248,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 8.794365, z: 2.2444801}
+  m_Center: {x: 0, y: 3.8971825, z: 0.62224}
 --- !u!1 &233264707199311862
 GameObject:
   m_ObjectHideFlags: 0

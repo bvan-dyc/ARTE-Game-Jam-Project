@@ -16,6 +16,7 @@ public class AD_Player_Foley : MonoBehaviour
     [SerializeField] GameObject elbowRight;
     [SerializeField] GameObject handLeft;
     [SerializeField] GameObject handRight;
+    [SerializeField] GameObject hips;
     [SerializeField] GameObject back;
     [SerializeField] GameObject neck;
     [SerializeField] GameObject head;
@@ -44,14 +45,14 @@ public class AD_Player_Foley : MonoBehaviour
     #region Animation Events
     public void AD_PreStepLeft()
     {
-        AkSoundEngine.PostEvent("PreStep_Knee", kneeLeft);
+        AkSoundEngine.PostEvent("Bones_Knee", kneeLeft);
         AkSoundEngine.PostEvent("Walk_Hips", hipsLeft);
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderLeft);
     }
 
     public void AD_PreStepRight()
     {
-        AkSoundEngine.PostEvent("PreStep_Knee", kneeRight);
+        AkSoundEngine.PostEvent("Bones_Knee", kneeRight);
         AkSoundEngine.PostEvent("Walk_Hips", hipsRight);
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderRight);
     }
@@ -60,7 +61,7 @@ public class AD_Player_Foley : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Footstep", footLeft);
         AkSoundEngine.PostEvent("Bones_Elbow", elbowLeft);
-      }
+    }
 
     public void AD_FootStepRight()
     {
@@ -72,13 +73,23 @@ public class AD_Player_Foley : MonoBehaviour
     public void AD_ArmLeft()
     {
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderLeft);
-        AkSoundEngine.PostEvent("Footstep_Elbow", elbowLeft);
+        AkSoundEngine.PostEvent("Bones_Elbow", elbowLeft);
     }
 
     public void AD_ArmRight()
     {
         AkSoundEngine.PostEvent("Prestep_Shoulder", shoulderRight);
-        AkSoundEngine.PostEvent("Footstep_Elbow", elbowRight);
+        AkSoundEngine.PostEvent("Bones_Elbow", elbowRight);
+    }
+
+    public void AD_KneeLeft()
+    {
+        AkSoundEngine.PostEvent("Bones_Knee", kneeLeft);
+    }
+
+    public void AD_KneeRight()
+    {
+        AkSoundEngine.PostEvent("Bones_Knee", kneeRight);
     }
 
     public void AD_HitKneeLeft()
@@ -94,6 +105,11 @@ public class AD_Player_Foley : MonoBehaviour
     public void AD_HitTorso()
     {
         AkSoundEngine.PostEvent("Hit_Torso", back);
+    }
+
+    public void AD_HitHips()
+    {
+        AkSoundEngine.PostEvent("Hit_Hips", hips);
     }
 
     public void AD_HitHead()

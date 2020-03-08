@@ -921,6 +921,7 @@ MonoBehaviour:
   elbowRight: {fileID: 6217885482046194368}
   handLeft: {fileID: 2519821794936483851}
   handRight: {fileID: 3141802534068759565}
+  hips: {fileID: 3686473163779576681}
   back: {fileID: 1627609441568602704}
   neck: {fileID: 9037037740371285263}
   head: {fileID: 5514167965512709673}

@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 1402492532257259224}
   - component: {fileID: 7869549626901737226}
   - component: {fileID: 7907160353896381972}
+  - component: {fileID: 761956932120190272}
   m_Layer: 8
   m_Name: Body
   m_TagString: Player
@@ -250,6 +251,41 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 8.794365, z: 2.2444801}
   m_Center: {x: 0, y: 3.8971825, z: 0.62224}
+--- !u!114 &761956932120190272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204462673269023414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1879323601f2f644b96bcce075eb13df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Character:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1963e5d8a6f244c4da332e808048ec6b,
+      type: 2}
+  footLeft: {fileID: 7092933941425202883}
+  footRight: {fileID: 8159976437984646412}
+  kneeLeft: {fileID: 4050378340940718452}
+  kneeRight: {fileID: 8826737769468363712}
+  hipsLeft: {fileID: 6719344797619060053}
+  hipsRight: {fileID: 2556661133934375582}
+  shoulderLeft: {fileID: 2744728888531385308}
+  shoulderRight: {fileID: 3996327740416346344}
+  elbowLeft: {fileID: 2783028509622477016}
+  elbowRight: {fileID: 8615052348610702653}
+  handLeft: {fileID: 233264707199311862}
+  handRight: {fileID: 746860125522674672}
+  hips: {fileID: 1363594933456239764}
+  back: {fileID: 3986499001317676461}
+  neck: {fileID: 6678429642784307954}
+  head: {fileID: 7873082822645307860}
 --- !u!1 &233264707199311862
 GameObject:
   m_ObjectHideFlags: 0

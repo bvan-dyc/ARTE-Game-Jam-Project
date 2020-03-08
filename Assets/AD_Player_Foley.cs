@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AD_Player_Foley : MonoBehaviour
 {
+    [SerializeField] AK.Wwise.Switch Character;
     [SerializeField] GameObject footLeft;
     [SerializeField] GameObject footRight;
     [SerializeField] GameObject kneeLeft;

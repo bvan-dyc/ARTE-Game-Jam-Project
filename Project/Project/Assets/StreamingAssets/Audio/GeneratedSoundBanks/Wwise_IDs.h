@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID HIT_HIPS = 3921464293U;
         static const AkUniqueID HIT_KNEE = 1773028838U;
         static const AkUniqueID HIT_TORSO = 1156575892U;
+        static const AkUniqueID OPEN_DOOR = 2934549620U;
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PRESTEP_SHOULDER = 2169618665U;

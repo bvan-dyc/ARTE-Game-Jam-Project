@@ -3,21 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2934549620	Open_Door			\Default Work Unit\Puzzles\Open_Door	
 	3364702632	Stop_Door			\Default Work Unit\Puzzles\Stop_Door	
 
-State Group	ID	Name			Wwise Object Path	Notes
-	4044678609	Music_Stage			\Default Work Unit\Music_Stage	
-
-State	ID	Name	State Group			Notes
-	748895195	None	Music_Stage			
-	936729720	Stage3	Music_Stage			
-	936729721	Stage2	Music_Stage			
-	936729722	Stage1	Music_Stage			
-
-Trigger	ID	Name			Wwise Object Path	Notes
-	395982976	SFX_Positive			\Default Work Unit\SFX_Positive	
-	607923225	SFX_DoorOpen			\Default Work Unit\SFX_DoorOpen	
-	777164721	SFX_Death			\Default Work Unit\SFX_Death	
-	3422665512	SFX_Negative			\Default Work Unit\SFX_Negative	
-
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	9223852	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Crickets\static\static-02\Silence_02\Wwise Silence	
 	88011736	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Silence_01\Wwise Silence	
@@ -88,7 +73,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1024549556	Fly-dead01_05	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\2-17 Fly 1_73390F41.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Dead\Fly-corpse_01_YR\Fly-dead01_05		48880
 	1033387761	75 - Tombstone,Grind Stone Dragging On Stone 4-03_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\75 - Tombstone,Grind Stone Dragging On Stone 4-03.L_65DFBAD5.wem		\Actor-Mixer Hierarchy\_PUZZLES\Puzzles\Open Door\Stone Slide\75 - Tombstone,Grind Stone Dragging On Stone 4-03_L		99388
 	1060922546	3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_L	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-04.L_B09F49DF.wem		\Actor-Mixer Hierarchy\_AMB\Amb_3D\Random 3D spot\Snakes\Snakes2\Snake_Rattle2\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes_-04_L		15076
-
-Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	628943652	T19_Musicloop_Stage1	F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\.cache\Windows\SFX\T19_Musicloop_Stage1_4811579D.wem	628943652.wem	\Interactive Music Hierarchy\Default Work Unit\MusicLoop\Stage1\Stage1\T19_Musicloop_Stage1	
 

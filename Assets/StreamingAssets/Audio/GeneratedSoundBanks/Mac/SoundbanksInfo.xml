@@ -1581,7 +1581,7 @@
 			<ShortName>MainLevel</ShortName>
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Puzzles\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" DurationType="OneShot" DurationMin="5.169192" DurationMax="5.249912">
+				<Event Id="2934549620" Name="Open_Door" ObjectPath="\Events\Default Work Unit\Puzzles\Open_Door" GUID="{FEDC1165-E28A-4C51-9775-B2F375643FCF}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="6.820790" DurationMax="6.927301">
 					<IncludedMemoryFiles>
 						<File Id="114909347" Language="SFX">
 							<ShortName>75 - Tombstone,Grind Stone Dragging On Stone 4-01.L.wav</ShortName>
@@ -1602,12 +1602,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Game\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
-					<ReferencedStreamedFiles>
-						<File Id="628943652" Language="SFX">
-							<ShortName>T19_Musicloop_Stage1.wav</ShortName>
-							<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
 						<File Id="3476742" Language="SFX">
 							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>

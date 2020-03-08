@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class TwoSideTranslator : SimpleTranslator
 {
+    [SerializeField] AK.Wwise.Event soundStart;
+    [SerializeField] AK.Wwise.Event soundStop;
     private float twoSideTranslation;
     private bool isSliding = false;
 
@@ -23,6 +25,17 @@ public class TwoSideTranslator : SimpleTranslator
         if (twoSideTranslation > 0.0f && twoSideTranslation < 1.0f)
         {
             base.PerformTransform(Mathf.Clamp01(twoSideTranslation));
+            if (!isSliding)
+            {
+                if (soundStart!=null)  soundStart.Post(gameObject);
+                isSliding = true;
+            }
+        }
+
+        else if (isSliding)
+        {
+            if (soundStop != null) soundStop.Post(gameObject);
+            isSliding = false;
         }
     }
 
@@ -30,7 +43,8 @@ public class TwoSideTranslator : SimpleTranslator
     {
         Debug.Log("activate");
         activate = true;
-        isSliding = true;
+        //isSliding = true;
+        //if (soundStart != null) soundStart.Post(gameObject);
     }
 
     public void Deactivate()

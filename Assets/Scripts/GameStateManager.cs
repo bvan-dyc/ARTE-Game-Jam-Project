@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameStateManager : MonoBehaviour
 {
     protected UserInput input;
-    [SerializeField] private Image fadeScreen;
+    [SerializeField] private Image fadeScreen = null;
     [SerializeField] private float fadeDuration = 1f;
     [SerializeField] private float loadDelay = 5f;
     [SerializeField] private bool fadeInOnLoad = false;

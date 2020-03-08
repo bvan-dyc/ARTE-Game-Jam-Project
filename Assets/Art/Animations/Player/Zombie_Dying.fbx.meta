@@ -144,7 +144,7 @@ ModelImporter:
         intParameter: 0
         messageOptions: 0
       - time: 0.67200893
-        functionName: NewEvent
+        functionName: AD_ArmRight
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

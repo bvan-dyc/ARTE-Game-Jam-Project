@@ -16,6 +16,7 @@ public class GameStateManager : MonoBehaviour
 
     void Start()
     {
+        PlayerController.instance.OnFinalDeath.AddListener(GameEnd);
         /*
         if (fadeInOnLoad)
         {
@@ -29,10 +30,8 @@ public class GameStateManager : MonoBehaviour
     void GameEnd(PlayerController player)
     {
         StartCoroutine(EndRoutine(loadDelay));
-        /*
         StartCoroutine(UIExtensions.TypeTextRoutine(victoryString, mainText, 0.2f));
         StartCoroutine(UIExtensions.ImageFadeInRoutine(fadeScreen, fadeDuration));
-        */
     }
 
     IEnumerator EndRoutine(float delay)

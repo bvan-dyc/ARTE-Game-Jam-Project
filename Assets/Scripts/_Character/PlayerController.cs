@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour
         input.playerControllerInputBlocked = true;
         animator.SetTrigger(hashDeath);
         livesLeft -= 1;
+        OnDeath.Invoke(this);
         if (livesLeft <= 0)
             FinalDeath();
         else
@@ -145,7 +146,6 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(respawnDelay);
         SpawnFormerBody();
-        OnDeath.Invoke(this);
         if (currentCheckpoint != null)
         {
             transform.position = currentCheckpoint.transform.position;

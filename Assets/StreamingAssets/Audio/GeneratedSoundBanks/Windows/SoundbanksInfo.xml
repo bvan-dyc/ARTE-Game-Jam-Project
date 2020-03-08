@@ -100,6 +100,90 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1510201124" Name="Bones_Knee" ObjectPath="\Events\Default Work Unit\Player\Foley\Bones_Knee" GUID="{4C4BC267-7008-4E80-B41C-25ECAE6BE163}" DurationType="OneShot" DurationMin="0.299365" DurationMax="0.653062">
+					<IncludedMemoryFiles>
+						<File Id="122085856" Language="SFX">
+							<ShortName>FOL_Bone_Single-00.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-00_CCFA52FE.wem</Path>
+						</File>
+						<File Id="238338989" Language="SFX">
+							<ShortName>FOL_Bone_Single-04.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-04_CCFA52FE.wem</Path>
+						</File>
+						<File Id="291914149" Language="SFX">
+							<ShortName>FOL_Bone_Single-07.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-07_CCFA52FE.wem</Path>
+						</File>
+						<File Id="333945019" Language="SFX">
+							<ShortName>FOL_Bone_Single-03.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-03_CCFA52FE.wem</Path>
+						</File>
+						<File Id="448464009" Language="SFX">
+							<ShortName>FOL_Bone_Single-06.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-06_CCFA52FE.wem</Path>
+						</File>
+						<File Id="552792686" Language="SFX">
+							<ShortName>FOL_Bone_Single-01.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-01_CCFA52FE.wem</Path>
+						</File>
+						<File Id="914170503" Language="SFX">
+							<ShortName>FOL_Bone_Single-02.wav</ShortName>
+							<Path>SFX\FOL_Bone_Single-02_CCFA52FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}">
+							<Media>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87430B39-7D2A-4161-B65D-1BC9856D1F68}">
+							<Media>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+								<File Id="122085856"/>
+								<File Id="552792686"/>
+								<File Id="914170503"/>
+								<File Id="333945019"/>
+								<File Id="238338989"/>
+								<File Id="448464009"/>
+								<File Id="291914149"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Foley\Footstep" GUID="{64BAD681-05F6-463C-ADD6-AF7E3B46970B}" DurationType="OneShot" DurationMin="0.719978" DurationMax="1.428314">
 					<IncludedMemoryFiles>
 						<File Id="12906320" Language="SFX">
@@ -787,93 +871,10 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="4073051257" Name="Hit_Head" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Head" GUID="{C3BF3E80-4940-4EC1-A94E-3B45A7D6811B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3921464293" Name="Hit_Hips" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Hips" GUID="{CCD8AA05-22A2-4208-9F2D-74356BDC4BDB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1773028838" Name="Hit_Knee" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Knee" GUID="{7C394BB4-99AB-476B-9552-68A44091F9A9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="266903708" Name="Prestep_Knee" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Knee" GUID="{4C4BC267-7008-4E80-B41C-25ECAE6BE163}" DurationType="OneShot" DurationMin="0.299365" DurationMax="0.653062">
-					<IncludedMemoryFiles>
-						<File Id="122085856" Language="SFX">
-							<ShortName>FOL_Bone_Single-00.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-00_CCFA52FE.wem</Path>
-						</File>
-						<File Id="238338989" Language="SFX">
-							<ShortName>FOL_Bone_Single-04.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-04_CCFA52FE.wem</Path>
-						</File>
-						<File Id="291914149" Language="SFX">
-							<ShortName>FOL_Bone_Single-07.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-07_CCFA52FE.wem</Path>
-						</File>
-						<File Id="333945019" Language="SFX">
-							<ShortName>FOL_Bone_Single-03.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-03_CCFA52FE.wem</Path>
-						</File>
-						<File Id="448464009" Language="SFX">
-							<ShortName>FOL_Bone_Single-06.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-06_CCFA52FE.wem</Path>
-						</File>
-						<File Id="552792686" Language="SFX">
-							<ShortName>FOL_Bone_Single-01.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-01_CCFA52FE.wem</Path>
-						</File>
-						<File Id="914170503" Language="SFX">
-							<ShortName>FOL_Bone_Single-02.wav</ShortName>
-							<Path>SFX\FOL_Bone_Single-02_CCFA52FE.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{898FF504-DEE4-48C9-8FB9-150B3D5642A9}">
-							<Media>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{87430B39-7D2A-4161-B65D-1BC9856D1F68}">
-							<Media>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-								<File Id="122085856"/>
-								<File Id="552792686"/>
-								<File Id="914170503"/>
-								<File Id="333945019"/>
-								<File Id="238338989"/>
-								<File Id="448464009"/>
-								<File Id="291914149"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-				</Event>
-				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" DurationType="OneShot" DurationMin="0.741517" DurationMax="1.449760">
+				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1041,6 +1042,11 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2607556080" GUID="{DA4B684B-2EA3-433A-95E6-4FEA7C793E9F}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu</ObjectPath>
+			<ShortName>Menu</ShortName>
+			<Path>Menu.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3161908922" GUID="{4C35C3F7-1A6C-4FF0-B117-1546C18AFF4F}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>

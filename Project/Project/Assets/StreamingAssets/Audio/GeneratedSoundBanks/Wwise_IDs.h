@@ -14,11 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BONES_ELBOW = 1420004310U;
+        static const AkUniqueID BONES_KNEE = 1510201124U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID HIT_HEAD = 4073051257U;
+        static const AkUniqueID HIT_HIPS = 3921464293U;
         static const AkUniqueID HIT_KNEE = 1773028838U;
         static const AkUniqueID HIT_TORSO = 1156575892U;
-        static const AkUniqueID PRESTEP_KNEE = 266903708U;
         static const AkUniqueID PRESTEP_SHOULDER = 2169618665U;
         static const AkUniqueID PUSH_BUTTON = 1679310360U;
         static const AkUniqueID SNAP_NECK = 812327625U;
@@ -66,6 +67,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MENU = 2607556080U;
         static const AkUniqueID PLAYER = 1069431850U;
     } // namespace BANKS
 

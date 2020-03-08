@@ -903,6 +903,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2096626075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2564002042825352163, guid: d494e9d3f0d3b134dbf8cd9d76e25c88,
+    type: 3}
+  m_PrefabInstance: {fileID: 2564002042080814997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2096626077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096626075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1b0176307697a47bfe08787ffba54d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 766d4a3821b06e347809af6ec85bac90,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &2096626078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096626075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1b0176307697a47bfe08787ffba54d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 20929afbce48e7a46803aaff8ccfad75,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 1
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1001 &2101062745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1715,12 +1771,12 @@ PrefabInstance:
         type: 3}
       propertyPath: footLeft
       value: 
-      objectReference: {fileID: 762643043}
+      objectReference: {fileID: 0}
     - target: {fileID: 6296333740948444016, guid: 14d6c1349c442bc46815b6d2e6d3f946,
         type: 3}
       propertyPath: footRight
       value: 
-      objectReference: {fileID: 940579012}
+      objectReference: {fileID: 0}
     - target: {fileID: 6785700065403514644, guid: 14d6c1349c442bc46815b6d2e6d3f946,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

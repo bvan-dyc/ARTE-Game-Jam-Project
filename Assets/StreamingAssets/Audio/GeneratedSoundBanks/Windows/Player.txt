@@ -1,13 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	266903708	Prestep_Knee			\Default Work Unit\Player\Foley\Prestep_Knee	
 	812327625	Snap_Neck			\Default Work Unit\Player\Damage\Snap_Neck	
 	1156575892	Hit_Torso			\Default Work Unit\Player\Damage\Hit_Torso	
 	1420004310	Bones_Elbow			\Default Work Unit\Player\Foley\Bones_Elbow	
+	1510201124	Bones_Knee			\Default Work Unit\Player\Foley\Bones_Knee	
 	1679310360	Push_Button			\Default Work Unit\Player\Actions\Push_Button	
 	1773028838	Hit_Knee			\Default Work Unit\Player\Damage\Hit_Knee	
 	1862655679	Walk_Hips			\Default Work Unit\Player\Foley\Walk_Hips	
 	1866025847	Footstep			\Default Work Unit\Player\Foley\Footstep	
 	2169618665	Prestep_Shoulder			\Default Work Unit\Player\Foley\Prestep_Shoulder	
+	3921464293	Hit_Hips			\Default Work Unit\Player\Damage\Hit_Hips	
 	4073051257	Hit_Head			\Default Work Unit\Player\Damage\Hit_Head	
 
 Switch Group	ID	Name			Wwise Object Path	Notes

@@ -8,7 +8,12 @@
 		<ExternalSourcesOutputRoot>F:\ARTE_GameJam2020\ARTE_Pre-Alpha_team_Wwise\ARTE_Pre-Alpha_team\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="628943652" Language="SFX">
+			<ShortName>T19_Musicloop_Stage1.wav</ShortName>
+			<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1069431850" GUID="{ABDA7359-6A96-4C17-8BEA-1A4B62FFC199}" Language="SFX">
@@ -1006,7 +1011,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.525333">
+				<Event Id="1156575892" Name="Hit_Torso" ObjectPath="\Events\Default Work Unit\Player\Damage\Hit_Torso" GUID="{CEAE6AA6-653A-49F4-AE6A-6C09F0BE5BA0}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.376000" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1375,7 +1380,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.389760">
+				<Event Id="2169618665" Name="Prestep_Shoulder" ObjectPath="\Events\Default Work Unit\Player\Foley\Prestep_Shoulder" GUID="{702700FF-82DF-44EB-B882-709AD9278791}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.681517" DurationMax="1.646784">
 					<IncludedMemoryFiles>
 						<File Id="6623599" Language="SFX">
 							<ShortName>FOL_Rope_Move-16.wav</ShortName>
@@ -1569,6 +1574,12 @@
 			<Path>MainLevel.bnk</Path>
 			<IncludedEvents>
 				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Game\Play_Ambience" GUID="{65F00C80-3A53-4EA0-93C7-B3475343E272}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="628943652" Language="SFX">
+							<ShortName>T19_Musicloop_Stage1.wav</ShortName>
+							<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
 						<File Id="3476742" Language="SFX">
 							<ShortName>1-58 Insect,Cricket Field Cricket, C.U. W_Bg Crickets.wav</ShortName>
@@ -1697,10 +1708,6 @@
 						<File Id="561007275" Language="SFX">
 							<ShortName>3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L.wav</ShortName>
 							<Path>SFX\3-19 Rattles - 6 Effects; Various High-pitched Rattlesnake Shakes.-02.L_B09F49DF.wem</Path>
-						</File>
-						<File Id="628943652" Language="SFX">
-							<ShortName>T19_Musicloop_Stage1.wav</ShortName>
-							<Path>SFX\T19_Musicloop_Stage1_4811579D.wem</Path>
 						</File>
 						<File Id="637873587" Language="SFX">
 							<ShortName>66 Wind Desert Wind, Lonely, Haunting, Ominous, Weather.wav</ShortName>

@@ -89,8 +89,10 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Player Died");
         respawning = true;
-        if (mainAudioSource)
+        /*
+         * if (mainAudioSource)
             mainAudioSource.PlayOneShot(deathSoundClip);
+            */
         currentBody.ResetBody();
         input.playerControllerInputBlocked = true;
         animator.SetTrigger(hashDeath);
